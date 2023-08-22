@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThoughtDef>
+		<defName>BD_CarryingGoldenGunNormal</defName>
+		<workerClass>BDsGoldenGuns.ThoughtWorker_IsCarryingGoldenWeapon</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<nullifyingTraits>
+			<li>Ascetic</li>
+			<li>Greedy</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>carrying luxury weapon</label>
+				<description>Carrying a golden gun made me feel important.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>BD_CarryingGoldenGunGreedy</defName>
+		<workerClass>BDsGoldenGuns.ThoughtWorker_IsCarryingGoldenWeapon</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Greedy</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>carrying luxury weapon (Greedy)</label>
+				<description>I'm greedy. Carrying a golden gun made me feel satisfied.</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>BD_CarryingGoldenGunAscetic</defName>
+		<workerClass>BDsGoldenGuns.ThoughtWorker_IsCarryingGoldenWeapon</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Ascetic</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>carrying luxury weapon (Ascetic)</label>
+				<description>I'm carrying a weapon with superfluous decoration. I absolutely hate it.</description>
+				<baseMoodEffect>-30</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

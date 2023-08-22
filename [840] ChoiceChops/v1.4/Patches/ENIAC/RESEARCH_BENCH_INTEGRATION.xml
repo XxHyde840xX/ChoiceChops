@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+<!-- ENIAC RESEARCH LINKAGE -->
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "HiTechResearchBench" or defName = "SimpleResearchBench"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+          <li>840_ENIAC</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

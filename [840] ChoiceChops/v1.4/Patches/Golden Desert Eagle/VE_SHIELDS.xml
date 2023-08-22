@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Expanded Framework</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="840_Gold_DesertEagle"] </xpath>
+                    <value>
+                        <modExtensions>
+                            <li Class="VFECore.ThingDefExtension">
+                                <usableWithShields>true</usableWithShields>
+                            </li>
+                        </modExtensions>
+                    </value>
+                </li>               
+            </operations>
+        </match>
+    </Operation>
+</Patch>

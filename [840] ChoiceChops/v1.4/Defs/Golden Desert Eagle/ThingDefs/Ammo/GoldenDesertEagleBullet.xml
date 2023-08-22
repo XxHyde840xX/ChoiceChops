@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    
+<!-- ================ Golden Desert Eagle Bullet =============== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>840_Bullet_GDeagle</defName>
+    <label>.50 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>21</damageAmountBase>
+    <stoppingPower>1.3</stoppingPower>
+      <armorPenetrationBase>0.38</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>  
+
+</Defs>

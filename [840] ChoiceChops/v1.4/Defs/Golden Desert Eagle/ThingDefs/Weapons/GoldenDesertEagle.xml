@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+  <!-- ==================== Desert Eagle ==================== -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>840_GDeagle</defName>
+    <label>Golden Desert Eagle pistol</label>
+    <description>The Golden Desert Eagle, chambered in .50 Action Express, is one the most powerful, heavy, and ostentatious pistols manufactured across the mid-worlds. Made mostly for show, and often found in the hands with a penchant for money and power, the weapon is incredibly powerful, if not the last word in accuracy.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GoldenDesertEagle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.4</uiIconScale>
+    <soundInteract>Interact_840_GDeagle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+	  <li>BD_GoldenWeapon</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>6500</WorkToMake>
+      <Mass>1.75</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+	<tradeTags>
+          <li>ExoticMisc</li>
+    </tradeTags>
+    <costList>
+	  <Gold>4</Gold>
+      <Steel>18</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>840_Bullet_GDeagle</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>28.5</range>
+        <soundCast>Shot_840_GDeagle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>
