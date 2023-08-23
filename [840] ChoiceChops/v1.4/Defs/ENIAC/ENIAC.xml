@@ -74,22 +74,3 @@
   </ThingDef>
   
 </Defs>
-
-<!--
-
-could not resolve cross-reference to Verse.ThingDef named 840_ENIAC (wanter=linkableFacilities) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Could not resolve cross-reference to Verse.ThingDef named 840_ENIAC (wanter=linkableFacilities) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Could not resolve cross-reference to Verse.ThingDef named 840_ENIAC (wanter=linkableFacilities) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Could not resolve cross-reference to Verse.ThingDef named 840_ENIAC (wanter=linkableFacilities) 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-WHAT IS CAUSING THESE? IS IT THE PATCH? AM I MISSING A TAG?
-I SWEAR IF IT WAS JUST A CASE OF CLOSING THE TAG PROPERLY...
-
--->
