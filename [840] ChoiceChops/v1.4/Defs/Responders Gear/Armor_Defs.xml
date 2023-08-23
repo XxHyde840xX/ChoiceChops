@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Responders Gear  __________-->
+
+    <!--_______ Armor/Apparel _______-->
+
+    <!--_____ Responders Padded Jacket _____-->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>CPTRex_Apparel_Responders_Padded_Jacket</defName>
+        <label>Responders Padded Jacket</label>
+        <description>“After the Great War, Appalachia's emergency personnel mobilized to help their fellow citizens. These Responders became part government, part crisis relief. Most of the responder's gear was repurposed from pre-war gear, so with a few wasteland tweaks the padded jacket become a standard issue.”</description>
+        <techLevel>Industrial</techLevel>        
+        <recipeMaker>
+            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <displayPriority>225</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Apparel/Responders/Responders_Padded_Jacket/CPTRex_Responders_Padded_Jacket</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.00</drawSize>
+        </graphicData>
+        <costList>
+            <Cloth>80</Cloth>
+            <Steel>150</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>5</Mass>
+            <Flammability>0.6</Flammability>
+            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.21</ArmorRating_Heat>
+            <Insulation_Cold>14.4</Insulation_Cold>
+            <Insulation_Heat>3</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.12</MoveSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/Responders/Responders_Padded_Jacket/CPTRex_Responders_Padded_Jacket</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>IndustrialAdvanced</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>Clothing</li>
+            <li>Armor</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--_____ Firebreathers uniform _____-->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>CPTRex_Apparel_Firebreathers_uniform</defName>
+        <label>Firebreathers uniform</label>
+        <description>“The Fire Breather uniform was issued by the Responders to members of its Fire-Breathers division. The uniform consists of a dark red pre-War Charleston Fire Department uniform, with a Responders emblem attached to the right sleeve.”</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <displayPriority>225</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Apparel/Responders/Firebreathers_uniform/CPTRex_Firebreathers_uniform</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.00</drawSize>
+        </graphicData>
+        <costList>
+            <Cloth>100</Cloth>
+            <Steel>150</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>5</Mass>
+            <Flammability>0</Flammability>
+            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.85</ArmorRating_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>20</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.15</MoveSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/Responders/Firebreathers_uniform/CPTRex_Firebreathers_uniform</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>IndustrialAdvanced</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>Clothing</li>
+            <li>Armor</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--_____ Mountain Scout Gear _____-->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>CPTRex_Apparel_Mountain_Scout_Gear</defName>
+        <label>Mountain Scout Gear</label>
+        <description>“Whether its the mountains of Appalachia or those of the Rim, the mountain scout uniform is perfect for those seeking to scout out would-be foes with added protection.”</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <displayPriority>225</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Apparel/Responders/Mountain_Scout_Gear/CPTRex_Mountain_Scout_Gear</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.00</drawSize>
+        </graphicData>
+        <costList>
+            <Cloth>80</Cloth>
+            <Steel>130</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>175</MaxHitPoints>
+            <WorkToMake>13000</WorkToMake>
+            <Mass>3</Mass>
+            <Flammability>0</Flammability>
+            <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.25</ArmorRating_Heat>
+            <Insulation_Cold>15</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.15</MoveSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/Responders/Mountain_Scout_Gear/CPTRex_Mountain_Scout_Gear</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>IndustrialAdvanced</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>Clothing</li>
+            <li>Armor</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--_______ Headgear _______-->
+
+    <!--_____ Firebreathers Helment _____-->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>CPTRex_Apparel_Firebreathers_Helment</defName>
+        <label>Firebreathers Helment</label>
+        <description>“The Fire Breather helmet was issued by the Responders to members of its Fire-Breathers division. The helmet is a full-face respirator worn beneath a traditional fireman's helmet. The helmet also serves as a gas mask, protecting the wearer from toxicity while it is worn.”</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <displayPriority>205</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Apparel/Responders/Firebreathers_uniform/CPTRex_Firebreathers_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.4</uiIconScale>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Flammability>0</Flammability>
+            <Mass>1.2</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.85</ArmorRating_Heat>
+            <Insulation_Cold>15</Insulation_Cold>
+            <Insulation_Heat>20</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicResistance>0.85</ToxicResistance>
+        </equippedStatOffsets>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Plasteel>10</Plasteel>
+        </costList>
+        <apparel>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/Responders/Firebreathers_uniform/CPTRex_Firebreathers_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>IndustrialMilitaryAdvanced</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>Armor</li>
+        </tradeTags>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_Training</defName>
+	<label>AoT - Training Corps</label>
+	<description>AoT - Training Corps
+	
+Also known as the Trainee Corps, the Trainee Squad or the Cadet Corps, these fresh recruits spend several years in training and education to join other military branches.</description>
+	<icon>PawnBadge/AttackOnTitan/Training</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_TrainingPrestige</defName>
+	<label>AoT - Training Corps (Prestige)</label>
+	<description>AoT - Training Corps (Prestige)
+	
+"The only thing we're allowed to believe is that we won't regret the choice we made."</description>
+	<icon>PawnBadge/AttackOnTitan/TrainingPrestige</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_Scouts</defName>
+	<label>AoT - Scouting Legion</label>
+	<description>AoT - Scouting Legion
+	
+Also known as the Survey Corps, the Scouting Regiment or the Recon Corps, they are the last hope of mankind, with their insignia being known as the Wings of Freedom.</description>
+	<icon>PawnBadge/AttackOnTitan/Scouts</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_ScoutsPrestige</defName>
+	<label>AoT - Scouting Legion (Prestige)</label>
+	<description>AoT - Scouting Legion (Prestige)
+	
+"My soldiers, rage! My soldiers, scream! My soldiers, fight!"</description>
+	<icon>PawnBadge/AttackOnTitan/ScoutsPrestige</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_Garrison</defName>
+	<label>AoT - The Garrison</label>
+	<description>AoT - The Garrison
+	
+Also known as the Stationary Guard, these widely proficient soldiers care for and defend the Walls, be it through patrols, repairs or improvements.</description>
+	<icon>PawnBadge/AttackOnTitan/Garrison</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_GarrisonPrestige</defName>
+	<label>AoT - The Garrison (Prestige)</label>
+	<description>AoT - The Garrison (Prestige)
+	
+"If you win, you live. If you lose, you die. If you don’t fight, you can’t win!"</description>
+	<icon>PawnBadge/AttackOnTitan/GarrisonPrestige</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_Military</defName>
+	<label>AoT - Military Police</label>
+	<description>AoT - Military Police
+	
+They are the primary police force within the Walls. Not only do they maintain order, they also serve as the royalty guard. This branch, however, is only reserved for the top ten trainees for each graduating class.</description>
+	<icon>PawnBadge/AttackOnTitan/Military</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_MilitaryPrestige</defName>
+	<label>AoT - Military Police (Prestige)</label>
+	<description>AoT - Military Police (Prestige)
+	
+“When we're born, all of us are free. People who reject that, no matter how strong they are, don't matter.”</description>
+	<icon>PawnBadge/AttackOnTitan/MilitaryPrestige</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_WallMaria</defName>
+	<label>AoT - Wall Maria</label>
+	<description>AoT - Wall Maria
+	
+Currently Disclosable Information: The oldest available records say the Titans appeared 107 years ago. They devoured most of humanity. Humanity retaliated with cannons, but they were useless in the face of the Titans' regenerative ability, so the last of humanity retreated behind the Walls.</description>
+	<icon>PawnBadge/AttackOnTitan/Maria</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_WallMariaPrestige</defName>
+	<label>AoT - Wall Maria (Prestige)</label>
+	<description>AoT - Wall Maria (Prestige)
+	
+Currently Disclosable Information: Exploratory activities beyond the Walls is carried out by the Scout Regiment. Their goal is to both explore the unknown area outside the Walls as well as to determine the true nature of the Titans. However, many soldiers are lost during each scouting mission.</description>
+	<icon>PawnBadge/AttackOnTitan/MariaPrestige</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_WallRose</defName>
+	<label>AoT - Wall Rose</label>
+	<description>AoT - Wall Rose
+	
+Currently Disclosable Information: The Walls are separated from one another in roughly equal intervals. There is a distance of about 100 kilometers between Maria and Rose, and there are about 130 kilometers between Rose and Sina. From Sina, it's about another 250 kilometers to the center of the interior.</description>
+	<icon>PawnBadge/AttackOnTitan/Rose</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_WallRosePrestige</defName>
+	<label>AoT - Wall Rose (Prestige)</label>
+	<description>AoT - Wall Rose (Prestige)
+	
+Currently Disclosable Information: In addition to the cities at the Walls, there exist villages of various sizes contained within the Walls, which provide goods and food to the people in the cities. Isolated forests of giant trees can also be found within and beyond the Walls. These trees can exceed heights of over 80 m.</description>
+	<icon>PawnBadge/AttackOnTitan/RosePrestige</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_WallSina</defName>
+	<label>AoT - Wall Sina</label>
+	<description>AoT - Wall Sina
+	
+Currently Disclosable Information: A special yeast made only within Wall Sina keeps perishable goods such as fodder, wheat, beans, and other items from spoiling for a long time when placed in storerooms or tents.</description>
+	<icon>PawnBadge/AttackOnTitan/Sina</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_WallSinaPrestige</defName>
+	<label>AoT - Wall Sina (Prestige)</label>
+	<description>AoT - Wall Sina (Prestige)
+	
+Currently Disclosable Information: Wall Sina encloses the capital city Mitras and about 200,000 people. Residency requires special permission and is technically restricted to the royal family and their relatives. One may also earn residency rights through meritorious service in the Garrison or the Military Police.</description>
+	<icon>PawnBadge/AttackOnTitan/SinaPrestige</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_EldiaEmblem</defName>
+	<label>AoT - Eldia</label>
+	<description>AoT - Eldia
+	
+“What is the point if those with the means and power do not fight?”</description>
+	<icon>PawnBadge/AttackOnTitan/Eldia</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_EldiaPrestige</defName>
+	<label>AoT - Eldia (Prestige)</label>
+	<description>AoT - Eldia (Prestige)
+	
+“Nothing can suppress a human’s curiosity.”</description>
+	<icon>PawnBadge/AttackOnTitan/EldiaPrestige</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_MarleyEmblem</defName>
+	<label>AoT - Marley</label>
+	<description>AoT - Marley
+	
+“You don’t stand a single chance to win unless you fight.”</description>
+	<icon>PawnBadge/AttackOnTitan/Marley</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_MarleyPrestige</defName>
+	<label>AoT - Marley (Prestige)</label>
+	<description>AoT - Marley (Prestige)
+	
+“I’ll slaughter you all and take back what you stole. All of it!”</description>
+	<icon>PawnBadge/AttackOnTitan/MarleyPrestige</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_ArmbandWhite</defName>
+	<label>AoT - Eldian White Armband</label>
+	<description>AoT - Eldian White Armband</description>
+	<icon>PawnBadge/AttackOnTitan/EldiaArmbandW</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_ArmbandYellow</defName>
+	<label>AoT - Eldian Yellow Armband</label>
+	<description>AoT - Eldian Yellow Armband</description>
+	<icon>PawnBadge/AttackOnTitan/EldiaArmbandY</icon>
+</RR_PawnBadge.BadgeDef>
+
+<RR_PawnBadge.BadgeDef>
+	<defName>BadgesAoT_ArmbandRed</defName>
+	<label>AoT - Eldian Red Armband</label>
+	<description>AoT - Eldian Red Armband</description>
+	<icon>PawnBadge/AttackOnTitan/EldiaArmbandR</icon>
+</RR_PawnBadge.BadgeDef>
+
+</Defs>

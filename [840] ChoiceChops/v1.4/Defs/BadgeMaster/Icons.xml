@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+		<RR_PawnBadge.BadgeDef>
+		<defName>TPB1_Shooting</defName>
+		<label>Shooting</label>
+		<description>Shooting</description>
+		<icon>PawnBadge/T_Shooting</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB2_Melee</defName>
+		<label>Melee</label>
+		<description>Melee</description>
+		<icon>PawnBadge/T_Melee</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB3_NoViolence</defName>
+		<label>No Violence</label>
+		<description>No Violence</description>
+		<icon>PawnBadge/T_NoViolence</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB4_Firefight</defName>
+		<label>Firefight</label>
+		<description>Firefight</description>
+		<icon>PawnBadge/T_Firefight</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB5_NoFire</defName>
+		<label>No Fire</label>
+		<description>No Fire</description>
+		<icon>PawnBadge/T_NoFire</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB6_Patient</defName>
+		<label>Patient</label>
+		<description>Patient</description>
+		<icon>PawnBadge/T_Patient</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB7_Doctor</defName>
+		<label>Doctor</label>
+		<description>Doctor</description>
+		<icon>PawnBadge/T_Doctor</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB8_Nurse</defName>
+		<label>Nurse</label>
+		<description>Nurse</description>
+		<icon>PawnBadge/T_Nurse</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB9_Surgeon</defName>
+		<label>Surgeon</label>
+		<description>Surgeon</description>
+		<icon>PawnBadge/T_Surgeon</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB10_Bedrest</defName>
+		<label>Bedrest</label>
+		<description>Bedrest</description>
+		<icon>PawnBadge/T_Bedrest</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB11_NoDoctor</defName>
+		<label>No Doctor</label>
+		<description>No Doctor</description>
+		<icon>PawnBadge/T_NoDoctor</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB12_HaulPlus</defName>
+		<label>Haul+</label>
+		<description>Haul+</description>
+		<icon>PawnBadge/T_HaulPlus</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB13_CleanPlus</defName>
+		<label>Clean+</label>
+		<description>Clean+</description>
+		<icon>PawnBadge/T_CleanPlus</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB14_Basic</defName>
+		<label>Basic</label>
+		<description>Basic</description>
+		<icon>PawnBadge/T_Basic</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB15_Rearm</defName>
+		<label>Rearm</label>
+		<description>Rearm</description>
+		<icon>PawnBadge/T_Rearm</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB16_Refuel</defName>
+		<label>Refuel</label>
+		<description>Refuel</description>
+		<icon>PawnBadge/T_Refuel</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB17_Social</defName>
+		<label>Social</label>
+		<description>Social</description>
+		<icon>PawnBadge/T_Social</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB18_Warden</defName>
+		<label>Warden</label>
+		<description>Warden</description>
+		<icon>PawnBadge/T_Warden</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB19_Entertain</defName>
+		<label>Entertain</label>
+		<description>Entertain</description>
+		<icon>PawnBadge/T_Entertain</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB20_Trade</defName>
+		<label>Trade</label>
+		<description>Trade</description>
+		<icon>PawnBadge/T_Trade</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB102_Wait</defName>
+		<label>Wait</label>
+		<description>Wait on Tables</description>
+		<icon>PawnBadge/T_Wait</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB21_NoSocial</defName>
+		<label>No Social</label>
+		<description>No Social</description>
+		<icon>PawnBadge/T_NoSocial</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB22_Animals</defName>
+		<label>Animals</label>
+		<description>Animals</description>
+		<icon>PawnBadge/T_Animals</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB23_Handle</defName>
+		<label>Handle</label>
+		<description>Handle</description>
+		<icon>PawnBadge/T_Handle</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB24_Train</defName>
+		<label>Train</label>
+		<description>Train</description>
+		<icon>PawnBadge/T_Train</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB25_NoAnimals</defName>
+		<label>No Animals</label>
+		<description>No Animals</description>
+		<icon>PawnBadge/T_NoAnimals</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB26_Cook</defName>
+		<label>Cook</label>
+		<description>Cook</description>
+		<icon>PawnBadge/T_Cook</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB27_Butcher</defName>
+		<label>Butcher</label>
+		<description>Butcher</description>
+		<icon>PawnBadge/T_Butcher</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB28_Brew</defName>
+		<label>Brew</label>
+		<description>Brew</description>
+		<icon>PawnBadge/T_Brew</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB29_NoCook</defName>
+		<label>No Cook</label>
+		<description>No Cook</description>
+		<icon>PawnBadge/T_NoCook</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB30_Hunt</defName>
+		<label>Hunt</label>
+		<description>Hunt</description>
+		<icon>PawnBadge/T_Hunt</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB31_Repair</defName>
+		<label>Repair</label>
+		<description>Repair</description>
+		<icon>PawnBadge/T_Repair</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB32_Deconstruct</defName>
+		<label>Deconstruct</label>
+		<description>Deconstruct</description>
+		<icon>PawnBadge/T_Deconstruct</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB33_Construct</defName>
+		<label>Construct</label>
+		<description>Construct</description>
+		<icon>PawnBadge/T_Construct</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB34_NoConstruct</defName>
+		<label>No Construct</label>
+		<description>No Construct</description>
+		<icon>PawnBadge/T_NoConstruct</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB35_Plant</defName>
+		<label>Plant</label>
+		<description>Plant</description>
+		<icon>PawnBadge/T_Plant</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB36_Harvest</defName>
+		<label>Harvest</label>
+		<description>Harvest</description>
+		<icon>PawnBadge/T_Harvest</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB37_Grow</defName>
+		<label>Grow</label>
+		<description>Grow</description>
+		<icon>PawnBadge/T_Grow</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB38_Plant-Cut</defName>
+		<label>Plant Cut</label>
+		<description>Plant Cut</description>
+		<icon>PawnBadge/T_Plant-Cut</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB39_NoPlant</defName>
+		<label>No Plant</label>
+		<description>No Plant</description>
+		<icon>PawnBadge/T_NoPlant</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB40_Mine</defName>
+		<label>Mine</label>
+		<description>Mine</description>
+		<icon>PawnBadge/T_Mine</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB41_Drill</defName>
+		<label>Drill</label>
+		<description>Drill</description>
+		<icon>PawnBadge/T_Drill</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB42_Quarry</defName>
+		<label>Quarry</label>
+		<description>Quarry</description>
+		<icon>PawnBadge/T_Quarry</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB43_NoMine</defName>
+		<label>No Mine</label>
+		<description>No Mine</description>
+		<icon>PawnBadge/T_NoMine</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB44_Craft</defName>
+		<label>Craft</label>
+		<description>Craft</description>
+		<icon>PawnBadge/T_Craft</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB45_Drugs</defName>
+		<label>Drugs</label>
+		<description>Drugs</description>
+		<icon>PawnBadge/T_Drugs</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB46_Fabrication</defName>
+		<label>Fabrication</label>
+		<description>Fabrication</description>
+		<icon>PawnBadge/T_Fabrication</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB47_Machining</defName>
+		<label>Machining</label>
+		<description>Machining</description>
+		<icon>PawnBadge/T_Machining</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB48_Smithing</defName>
+		<label>Smithing</label>
+		<description>Smithing</description>
+		<icon>PawnBadge/T_Smithing</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB49_Tailor</defName>
+		<label>Tailor</label>
+		<description>Tailor</description>
+		<icon>PawnBadge/T_Tailor</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB50_Refine</defName>
+		<label>Refine</label>
+		<description>Refine</description>
+		<icon>PawnBadge/T_Refine</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB51_Smelt</defName>
+		<label>Smelt</label>
+		<description>Smelt</description>
+		<icon>PawnBadge/T_Smelt</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB52_StoneCutting</defName>
+		<label>Stone Cutting</label>
+		<description>Stone Cutting</description>
+		<icon>PawnBadge/T_StoneCutting</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB53_NoCraft</defName>
+		<label>No Craft</label>
+		<description>No Craft</description>
+		<icon>PawnBadge/T_NoCraft</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB54_Art</defName>
+		<label>Art</label>
+		<description>Art</description>
+		<icon>PawnBadge/T_Art</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB103_RimBees</defName>
+		<label>Beekeeping</label>
+		<description>Beekeeping with RimBees</description>
+		<icon>PawnBadge/PB_RimBees</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB55_Load</defName>
+		<label>Load</label>
+		<description>Load</description>
+		<icon>PawnBadge/T_Load</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB57_Cremate</defName>
+		<label>Cremate</label>
+		<description>Cremate</description>
+		<icon>PawnBadge/T_Cremate</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB56_Deliver</defName>
+		<label>Deliver</label>
+		<description>Deliver</description>
+		<icon>PawnBadge/T_Deliver</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB58_Haul</defName>
+		<label>Haul</label>
+		<description>Haul</description>
+		<icon>PawnBadge/T_Haul</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB59_Clean</defName>
+		<label>Clean</label>
+		<description>Clean</description>
+		<icon>PawnBadge/T_Clean</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB60_NoDumbLabor</defName>
+		<label>No Dumb Labor</label>
+		<description>No Dumb Labor</description>
+		<icon>PawnBadge/T_NoDumbLabor</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB61_Manage</defName>
+		<label>Manage</label>
+		<description>Manage</description>
+		<icon>PawnBadge/T_Manage</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB62_Research</defName>
+		<label>Research</label>
+		<description>Research</description>
+		<icon>PawnBadge/T_Research</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB63_Scan</defName>
+		<label>Scan</label>
+		<description>Scan</description>
+		<icon>PawnBadge/T_Scan</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB64_Write</defName>
+		<label>Write</label>
+		<description>Write</description>
+		<icon>PawnBadge/T_Write</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB65_NoResearch</defName>
+		<label>No Research</label>
+		<description>No Research</description>
+		<icon>PawnBadge/T_NoResearch</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB66_Fish</defName>
+		<label>Fish</label>
+		<description>Fish</description>
+		<icon>PawnBadge/T_Fish</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB67_Caravan</defName>
+		<label>Caravan</label>
+		<description>Caravan</description>
+		<icon>PawnBadge/T_Caravan</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB68_Casket</defName>
+		<label>Casket</label>
+		<description>Casket</description>
+		<icon>PawnBadge/T_Casket</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB69_Phoebe</defName>
+		<label>Phoebe</label>
+		<description>Phoebe</description>
+		<icon>PawnBadge/T_Phoebe</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB70_Cassandra</defName>
+		<label>Cassandra</label>
+		<description>Cassandra</description>
+		<icon>PawnBadge/T_Cassandra</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB71_Randy</defName>
+		<label>Randy</label>
+		<description>Randy</description>
+		<icon>PawnBadge/T_Randy</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB72_Alcohol</defName>
+		<label>Alcohol</label>
+		<description>Alcohol</description>
+		<icon>PawnBadge/T_Alcohol</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB73_Ascetic</defName>
+		<label>Ascetic</label>
+		<description>Ascetic</description>
+		<icon>PawnBadge/T_Ascetic</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB74_BodyPurist</defName>
+		<label>Body Purist</label>
+		<description>Body Purist</description>
+		<icon>PawnBadge/T_BodyPurist</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB75_Brawler</defName>
+		<label>Brawler</label>
+		<description>Brawler</description>
+		<icon>PawnBadge/T_Brawler</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB76_Cannibal</defName>
+		<label>Cannibal</label>
+		<description>Cannibal</description>
+		<icon>PawnBadge/T_Cannibal</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB77_ChemicalNeed</defName>
+		<label>Chemical Need</label>
+		<description>Chemical Need</description>
+		<icon>PawnBadge/T_ChemicalNeed</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB78_Coward</defName>
+		<label>Coward</label>
+		<description>Coward</description>
+		<icon>PawnBadge/T_Coward</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB79_Gourmand</defName>
+		<label>Gourmand</label>
+		<description>Gourmand</description>
+		<icon>PawnBadge/T_Gourmand</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB80_Greedy</defName>
+		<label>Greedy</label>
+		<description>Greedy</description>
+		<icon>PawnBadge/T_Greedy</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB81_HeavySleeper</defName>
+		<label>Heavy Sleeper</label>
+		<description>Heavy Sleeper</description>
+		<icon>PawnBadge/T_HeavySleeper</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB82_Insomniac</defName>
+		<label>Insomniac</label>
+		<description>Insomniac</description>
+		<icon>PawnBadge/T_Insomniac</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB83_Insult</defName>
+		<label>Insult</label>
+		<description>Insult</description>
+		<icon>PawnBadge/T_Insult</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB84_Luciferium</defName>
+		<label>Luciferium</label>
+		<description>Luciferium</description>
+		<icon>PawnBadge/T_Luciferium</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB85_Lush</defName>
+		<label>Lush</label>
+		<description>Lush</description>
+		<icon>PawnBadge/T_Lush</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB86_NightOwl</defName>
+		<label>Night Owl</label>
+		<description>Night Owl</description>
+		<icon>PawnBadge/T_NightOwl</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB87_NotHetero</defName>
+		<label>Not Hetero</label>
+		<description>Not Hetero</description>
+		<icon>PawnBadge/T_NotHetero</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB88_Nudist</defName>
+		<label>Nudist</label>
+		<description>Nudist</description>
+		<icon>PawnBadge/T_Nudist</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB89_Psychopath</defName>
+		<label>Psychopath</label>
+		<description>Psychopath</description>
+		<icon>PawnBadge/T_Psychopath</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB90_Pyro</defName>
+		<label>Pyro</label>
+		<description>Pyro</description>
+		<icon>PawnBadge/T_Pyro</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB91_QuickSleeper</defName>
+		<label>Quick Sleeper</label>
+		<description>Quick Sleeper</description>
+		<icon>PawnBadge/T_QuickSleeper</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB92_Sickly</defName>
+		<label>Sickly</label>
+		<description>Sickly</description>
+		<icon>PawnBadge/T_Sickly</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB93_Stoner</defName>
+		<label>Stoner</label>
+		<description>Stoner</description>
+		<icon>PawnBadge/T_Stoner</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB94_Super-immune</defName>
+		<label>Super-immune</label>
+		<description>Super-immune</description>
+		<icon>PawnBadge/T_Super-immune</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB95_Teetotaler</defName>
+		<label>Teetotaler</label>
+		<description>Teetotaler</description>
+		<icon>PawnBadge/T_Teetotaler</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB96_Transhumanist</defName>
+		<label>Transhumanist</label>
+		<description>Transhumanist</description>
+		<icon>PawnBadge/T_Transhumanist</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB97_Undergrounder</defName>
+		<label>Undergrounder</label>
+		<description>Undergrounder</description>
+		<icon>PawnBadge/T_Undergrounder</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB98_Wimp</defName>
+		<label>Wimp</label>
+		<description>Wimp</description>
+		<icon>PawnBadge/T_Wimp</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB99_GreenFace</defName>
+		<label>Green Face</label>
+		<description>Green Face</description>
+		<icon>PawnBadge/T_GreenFace</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB100_Happy</defName>
+		<label>Happy Face</label>
+		<description>Happy Face</description>
+		<icon>PawnBadge/T_Happy</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>TPB101_RedFace</defName>
+		<label>Red Face</label>
+		<description>Red Face</description>
+		<icon>PawnBadge/T_RedFace</icon>
+	</RR_PawnBadge.BadgeDef>		
+
+<!-- NEW SET -->
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>ART</defName>
+		<label>Art</label>
+		<description>Art</description>
+		<icon>PawnBadge/art</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BEDREST</defName>
+		<label>Bedrest</label>
+		<description>Bedrest</description>
+		<icon>PawnBadge/bedrest</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CLEAN</defName>
+		<label>Clean</label>
+		<description>Clean</description>
+		<icon>PawnBadge/clean</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CONS</defName>
+		<label>Construct</label>
+		<description>Construct</description>
+		<icon>PawnBadge/construct</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>COOK</defName>
+		<label>Cook</label>
+		<description>Cook</description>
+		<icon>PawnBadge/cook</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CRAFT</defName>
+		<label>Craft</label>
+		<description>Craft</description>
+		<icon>PawnBadge/craft</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>DOC</defName>
+		<label>Doctor</label>
+		<description>Doctor</description>
+		<icon>PawnBadge/doctor</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>FIRE</defName>
+		<label>Firefight</label>
+		<description>Firefight</description>
+		<icon>PawnBadge/firefight</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>GROW</defName>
+		<label>Grow</label>
+		<description>Grow</description>
+		<icon>PawnBadge/grow</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HANDLE</defName>
+		<label>Handle</label>
+		<description>Handle</description>
+		<icon>PawnBadge/handle</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HAUL</defName>
+		<label>Haul</label>
+		<description>Haul</description>
+		<icon>PawnBadge/haul</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HUNT</defName>
+		<label>Hunt</label>
+		<description>Hunt</description>
+		<icon>PawnBadge/hunt</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MINE</defName>
+		<label>Mine</label>
+		<description>Mine</description>
+		<icon>PawnBadge/mine</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>PATIENT</defName>
+		<label>Patient</label>
+		<description>Patient</description>
+		<icon>PawnBadge/patient</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>PLANTCUT</defName>
+		<label>Plantcut</label>
+		<description>Plantcut</description>
+		<icon>PawnBadge/plantcut</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>RESEARCH</defName>
+		<label>Research</label>
+		<description>Research</description>
+		<icon>PawnBadge/research</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SMITH</defName>
+		<label>Smith</label>
+		<description>Smith</description>
+		<icon>PawnBadge/smith</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>TAILOR</defName>
+		<label>Tailor</label>
+		<description>Tailor</description>
+		<icon>PawnBadge/tailor</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>WARDEN</defName>
+		<label>Warden</label>
+		<description>Warden</description>
+		<icon>PawnBadge/warden</icon>
+	</RR_PawnBadge.BadgeDef>
+
+<!-- NEW SET -->
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>KING</defName>
+		<label>Royalty King</label>
+		<description>Royalty King</description>
+		<icon>PawnBadge/chessking</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>QUEEN</defName>
+		<label>Royalty Queen</label>
+		<description>Royalty Queen</description>
+		<icon>PawnBadge/chessqueen</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BARON</defName>
+		<label>Royalty Baron</label>
+		<description>Royalty Baron</description>
+		<icon>PawnBadge/chessbishop</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>KNIGHT</defName>
+		<label>Royalty Knight</label>
+		<description>Royalty Knight</description>
+		<icon>PawnBadge/chessknight</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ROOK</defName>
+		<label>Royalty Rook</label>
+		<description>Royalty Rook</description>
+		<icon>PawnBadge/chessrook</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>PAWN</defName>
+		<label>Royalty Pawn</label>
+		<description>Royalty Pawn</description>
+		<icon>PawnBadge/chesspawn</icon>
+	</RR_PawnBadge.BadgeDef>
+		
+	<RR_PawnBadge.BadgeDef>
+		<defName>HACK</defName>
+		<label>Hacking</label>
+		<description>Hack</description>
+		<icon>PawnBadge/compute</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HANDLE2</defName>
+		<label>Handle2</label>
+		<description>Handle2</description>
+		<icon>PawnBadge/handle2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BUTCHER</defName>
+		<label>Butcher</label>
+		<description>Butcher</description>
+		<icon>PawnBadge/butcher</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BREWER</defName>
+		<label>Brewer</label>
+		<description>Brewer</description>
+		<icon>PawnBadge/brew</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>FISHER</defName>
+		<label>Fisher</label>
+		<description>Fisher</description>
+		<icon>PawnBadge/fish</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>DRUGS</defName>
+		<label>Chemcraft</label>
+		<description>Drugs</description>
+		<icon>PawnBadge/drugs</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>PILOT</defName>
+		<label>SRTS Pilot</label>
+		<description>SRTS Pilot</description>
+		<icon>PawnBadge/pilot</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BRICKMAKER</defName>
+		<label>Brick Maker</label>
+		<description>Brick Maker</description>
+		<icon>PawnBadge/brickmaker</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>EXPLOSIVES</defName>
+		<label>Demolitions</label>
+		<description>Demolitions</description>
+		<icon>PawnBadge/explosives</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>ARMORER</defName>
+		<label>Armor Crafter</label>
+		<description>Armor Crafter or Wearer</description>
+		<icon>PawnBadge/armorer</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>WEAPONCRAFTER</defName>
+		<label>Weapon Crafter</label>
+		<description>Weapon Crafter or Wielder</description>
+		<icon>PawnBadge/weaponsmith</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>REPAIRS</defName>
+		<label>Construction Repairs</label>
+		<description>Construction Repairs</description>
+		<icon>PawnBadge/repairs</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>COINMAKER</defName>
+		<label>Coinmaking or Minting</label>
+		<description>Coinmaker or Minter</description>
+		<icon>PawnBadge/coin</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>SCANNER</defName>
+		<label>Mineral Scanner</label>
+		<description>Scanner Operator</description>
+		<icon>PawnBadge/scanner</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>MUTANITE</defName>
+		<label>PawnMorpher Mutanite</label>
+		<description>Morphed</description>
+		<icon>PawnBadge/morphed</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>CHAOCOW</defName>
+		<label>PawnMorpher ChaoCow</label>
+		<description>Chaomilk Production</description>
+		<icon>PawnBadge/chaocow</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>CHAOHEN</defName>
+		<label>PawnMorpher ChaoHen</label>
+		<description>Chook Egg Production</description>
+		<icon>PawnBadge/chaohen</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>ENTERTAINER</defName>
+		<label>Guest Entertainer</label>
+		<description>Guest Entertainer</description>
+		<icon>PawnBadge/entertain</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>MANAGER</defName>
+		<label>Colony Manager</label>
+		<description>Colony Manager</description>
+		<icon>PawnBadge/manager</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>PLANTCUTTER</defName>
+		<label>Plant Cutter</label>
+		<description>Plant Cutter</description>
+		<icon>PawnBadge/plantcutter</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>SMELTER</defName>
+		<label>Smelter Operator</label>
+		<description>Smelter Operator</description>
+		<icon>PawnBadge/smelter</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>SURGEON</defName>
+		<label>Surgeon</label>
+		<description>Surgeon</description>
+		<icon>PawnBadge/surgeon</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>THERAPIST</defName>
+		<label>Orion's Therapy</label>
+		<description>Orion's Therapy</description>
+		<icon>PawnBadge/therapist</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>WRITER</defName>
+		<label>VWE Writer</label>
+		<description>VWE Writer</description>
+		<icon>PawnBadge/typing</icon>
+	</RR_PawnBadge.BadgeDef>
+
+<!-- NEW SET -->
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>ADDICTION_1</defName>
+		<label>Addiction 1</label>
+		<description>Addiction 1</description>
+		<icon>PawnBadge/addiction-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ADDICTION_2</defName>
+		<label>Addiction 2</label>
+		<description>Addiction 2</description>
+		<icon>PawnBadge/addiction-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ADDICTION_3</defName>
+		<label>Addiction 3</label>
+		<description>Addiction 3</description>
+		<icon>PawnBadge/addiction-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ART_1</defName>
+		<label>Art 1</label>
+		<description>Art 1</description>
+		<icon>PawnBadge/art-1</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>ART_2</defName>
+		<label>Art 2</label>
+		<description>Art 2</description>
+		<icon>PawnBadge/art-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ART_3</defName>
+		<label>Art 3</label>
+		<description>Art 3</description>
+		<icon>PawnBadge/art-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+	<defName>BEEKEEPING_1</defName>
+	<label>Beekeeping 1</label>
+	<description>Beekeeping 1</description>
+	<icon>PawnBadge/beekeeping-1</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+	<defName>BEEKEEPING_2</defName>
+	<label>Beekeeping 2</label>
+	<description>Beekeeping 2</description>
+	<icon>PawnBadge/beekeeping-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+	<defName>BEEKEEPING_3</defName>
+	<label>Beekeeping 3</label>
+	<description>Beekeeping 3</description>
+	<icon>PawnBadge/beekeeping-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CLEANING_1</defName>
+		<label>Cleaning 1</label>
+		<description>Cleaning 1</description>
+		<icon>PawnBadge/cleaning-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CONSTRUCTING_1</defName>
+		<label>Constructing 1</label>
+		<description>Constructing 1</description>
+		<icon>PawnBadge/constructing-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CONSTRUCTING_2</defName>
+		<label>Constructing 2</label>
+		<description>Constructing 2</description>
+		<icon>PawnBadge/constructing-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CONSTRUCTING_3</defName>
+		<label>Constructing 3</label>
+		<description>Constructing 3</description>
+		<icon>PawnBadge/constructing-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>COOKING_1</defName>
+		<label>Cooking 1</label>
+		<description>Cooking 1</description>
+		<icon>PawnBadge/cooking-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>COOKING_2</defName>
+		<label>Cooking 2</label>
+		<description>Cooking 2</description>
+		<icon>PawnBadge/cooking-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CRAFTING_1</defName>
+		<label>Crafting 1</label>
+		<description>Crafting 1</description>
+		<icon>PawnBadge/crafting-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CRAFTING_2</defName>
+		<label>Crafting 2</label>
+		<description>Crafting 2</description>
+		<icon>PawnBadge/crafting-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CRAFTING_3</defName>
+		<label>Crafting 3</label>
+		<description>Crafting 3</description>
+		<icon>PawnBadge/crafting-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CROWN_1</defName>
+		<label>Crown 1</label>
+		<description>Crown 1</description>
+		<icon>PawnBadge/crown-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>DOCTOR_1</defName>
+		<label>Doctor 1</label>
+		<description>Doctor 1</description>
+		<icon>PawnBadge/doctor-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>DOCTOR_2</defName>
+		<label>Doctor 2</label>
+		<description>Doctor 2</description>
+		<icon>PawnBadge/doctor-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>FIRE_1</defName>
+		<label>Fire 1</label>
+		<description>Fire 1</description>
+		<icon>PawnBadge/fire-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>FISHING_1</defName>
+		<label>Fishing 1</label>
+		<description>Fishing 1</description>
+		<icon>PawnBadge/fishing-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>FISHING_2</defName>
+		<label>Fishing 2</label>
+		<description>Fishing 2</description>
+		<icon>PawnBadge/fishing-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HANDLER_1</defName>
+		<label>Handler 1</label>
+		<description>Handler 1</description>
+		<icon>PawnBadge/handler-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HANDLER_2</defName>
+		<label>Handler 2</label>
+		<description>Handler 2</description>
+		<icon>PawnBadge/handler-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HANDLER_3</defName>
+		<label>Handler 3</label>
+		<description>Handler 3</description>
+		<icon>PawnBadge/handler-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HAULING_1</defName>
+		<label>Hauling 1</label>
+		<description>Hauling 1</description>
+		<icon>PawnBadge/hauling-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HAULING_2</defName>
+		<label>Hauling 2</label>
+		<description>Hauling 2</description>
+		<icon>PawnBadge/hauling-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HAULING_3</defName>
+		<label>Hauling 3</label>
+		<description>Hauling 3</description>
+		<icon>PawnBadge/hauling-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HAULING_4</defName>
+		<label>Hauling 4</label>
+		<description>Hauling 4</description>
+		<icon>PawnBadge/hauling-4</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HAULING_5</defName>
+		<label>Hauling 5</label>
+		<description>Hauling 5</description>
+		<icon>PawnBadge/hauling-5</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HUNTING_1</defName>
+		<label>Hunting 1</label>
+		<description>Hunting 1</description>
+		<icon>PawnBadge/hunting-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HUNTING_2</defName>
+		<label>Hunting 2</label>
+		<description>Hunting 2</description>
+		<icon>PawnBadge/hunting-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>HUNTING_3</defName>
+		<label>Hunting 3</label>
+		<description>Hunting 3</description>
+		<icon>PawnBadge/hunting-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>JAILOR_1</defName>
+		<label>Jailor 1</label>
+		<description>Jailor 1</description>
+		<icon>PawnBadge/jailor-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>JAILOR_2</defName>
+		<label>Jailor 2</label>
+		<description>Jailor 2</description>
+		<icon>PawnBadge/jailor-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>JAILOR_3</defName>
+		<label>Jailor 3</label>
+		<description>Jailor 3</description>
+		<icon>PawnBadge/jailor-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>LOOKOUT_1</defName>
+		<label>Lookout 1</label>
+		<description>Lookout 1</description>
+		<icon>PawnBadge/lookout-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>LOOKOUT_2</defName>
+		<label>Lookout 2</label>
+		<description>Lookout 2</description>
+		<icon>PawnBadge/lookout-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MANAGER_1</defName>
+		<label>Manager 1</label>
+		<description>Manager 1</description>
+		<icon>PawnBadge/manager-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MANAGER_2</defName>
+		<label>Manager 2</label>
+		<description>Manager 2</description>
+		<icon>PawnBadge/manager-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MANAGER_3</defName>
+		<label>Manager 3</label>
+		<description>Manager 3</description>
+		<icon>PawnBadge/manager-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MINING_1</defName>
+		<label>Mining 1</label>
+		<description>Mining 1</description>
+		<icon>PawnBadge/mining-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MINING_2</defName>
+		<label>Mining 2</label>
+		<description>Mining 2</description>
+		<icon>PawnBadge/mining-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MINING_3</defName>
+		<label>Mining 3</label>
+		<description>Mining 3</description>
+		<icon>PawnBadge/mining-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ORGAN_1</defName>
+		<label>Organ 1</label>
+		<description>Organ 1</description>
+		<icon>PawnBadge/organ-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ORGAN_2</defName>
+		<label>Organ 2</label>
+		<description>Organ 2</description>
+		<icon>PawnBadge/organ-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ORGAN_3</defName>
+		<label>Organ 3</label>
+		<description>Organ 3</description>
+		<icon>PawnBadge/organ-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ORGAN_4</defName>
+		<label>Organ 4</label>
+		<description>Organ 4</description>
+		<icon>PawnBadge/organ-4</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ORGAN_5</defName>
+		<label>Organ 5</label>
+		<description>Organ 5</description>
+		<icon>PawnBadge/organ-5</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ORGAN_6</defName>
+		<label>Organ 6</label>
+		<description>Organ 6</description>
+		<icon>PawnBadge/organ-6</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ORGAN_7</defName>
+		<label>Organ 7</label>
+		<description>Organ 7</description>
+		<icon>PawnBadge/organ-7</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ORGAN_8</defName>
+		<label>Organ 8</label>
+		<description>Organ 8</description>
+		<icon>PawnBadge/organ-8</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ORGAN_9</defName>
+		<label>Organ 9</label>
+		<description>Organ 9</description>
+		<icon>PawnBadge/organ-9</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>PLANTS_1</defName>
+		<label>Plants 1</label>
+		<description>Plants 1</description>
+		<icon>PawnBadge/plants-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>PLANTS_2</defName>
+		<label>Plants 2</label>
+		<description>Plants 2</description>
+		<icon>PawnBadge/plants-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>PLANTS_3</defName>
+		<label>Plants 3</label>
+		<description>Plants 3</description>
+		<icon>PawnBadge/plants-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>PLANTS_4</defName>
+		<label>Plants 4</label>
+		<description>Plants 4</description>
+		<icon>PawnBadge/plants-4</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RESEARCHER_1</defName>
+		<label>Researcher 1</label>
+		<description>Researcher 1</description>
+		<icon>PawnBadge/researcher-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>RESEARCHER_2</defName>
+		<label>Researcher 2</label>
+		<description>Researcher 2</description>
+		<icon>PawnBadge/researcher-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>RESEARCHER_3</defName>
+		<label>Researcher 3</label>
+		<description>Researcher 3</description>
+		<icon>PawnBadge/researcher-3</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>RESEARCHER_4</defName>
+		<label>Researcher 4</label>
+		<description>Researcher 4</description>
+		<icon>PawnBadge/researcher-4</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SKULL_1</defName>
+		<label>Skull 1</label>
+		<description>Skull 1</description>
+		<icon>PawnBadge/skull-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SMITHING_1</defName>
+		<label>Smithing 1</label>
+		<description>Smithing 1</description>
+		<icon>PawnBadge/smithing-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SOCIAL_1</defName>
+		<label>Social 1</label>
+		<description>Social 1</description>
+		<icon>PawnBadge/social-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SOCIAL_2</defName>
+		<label>Social 2</label>
+		<description>Social 2</description>
+		<icon>PawnBadge/social-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>TAILOR_1</defName>
+		<label>Tailor 1</label>
+		<description>Tailor 1</description>
+		<icon>PawnBadge/tailor-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>TRADER_1</defName>
+		<label>Trader 1</label>
+		<description>Trader 1</description>
+		<icon>PawnBadge/trader-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>TRADER_2</defName>
+		<label>Trader 2</label>
+		<description>Trader 2</description>
+		<icon>PawnBadge/trader-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>TRASH_1</defName>
+		<label>Trash 1</label>
+		<description>Trash 1</description>
+		<icon>PawnBadge/trash-1</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>TRASH_2</defName>
+		<label>Trash 2</label>
+		<description>Trash 2</description>
+		<icon>PawnBadge/trash-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>TREECUTTING_1</defName>
+		<label>Treecutting 1</label>
+		<description>Treecutting 1</description>
+		<icon>PawnBadge/treecutting-1</icon>
+	</RR_PawnBadge.BadgeDef>
+
+<!-- NEW SET -->
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>01por</defName>
+		<label>Soldado</label>
+		<description>Soldado</description>
+		<icon>PawnBadge/01-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>02por</defName>
+		<label>Segundo Cabo</label>
+		<description>Segundo Cabo</description>
+		<icon>PawnBadge/02-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>03por</defName>
+		<label>Primeiro Cabo</label>
+		<description>Primeiro Cabo</description>
+		<icon>PawnBadge/03-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>04por</defName>
+		<label>Cabo Adjunto</label>
+		<description>Cabo Adjunto</description>
+		<icon>PawnBadge/04-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>05por</defName>
+		<label>Segundo Furriel</label>
+		<description>Segundo Furriel</description>
+		<icon>PawnBadge/05-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>06por</defName>
+		<label>Furriel</label>
+		<description>Furriel</description>
+		<icon>PawnBadge/06-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>07por</defName>
+		<label>Segundo Sargento</label>
+		<description>Segundo Sargento</description>
+		<icon>PawnBadge/07-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>08por</defName>
+		<label>Primeiro Sargento</label>
+		<description>Primeiro Sargento</description>
+		<icon>PawnBadge/08-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>09por</defName>
+		<label>Sargento Ajudante</label>
+		<description>Sargento Ajudante</description>
+		<icon>PawnBadge/09-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>10por</defName>
+		<label>Sargento Chefe</label>
+		<description>Sargento Chefe</description>
+		<icon>PawnBadge/10-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>11por</defName>
+		<label>Sargento-mor</label>
+		<description>Sargento-mor</description>
+		<icon>PawnBadge/11-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>12por</defName>
+		<label>Aspirante</label>
+		<description>Aspirante</description>
+		<icon>PawnBadge/12-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>13por</defName>
+		<label>Alferes</label>
+		<description>Alferes</description>
+		<icon>PawnBadge/13-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>14por</defName>
+		<label>Tenente</label>
+		<description>Tenente</description>
+		<icon>PawnBadge/14-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>15por</defName>
+		<label>Capitão</label>
+		<description>Capitão</description>
+		<icon>PawnBadge/15-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>16por</defName>
+		<label>Major</label>
+		<description>Major</description>
+		<icon>PawnBadge/16-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>17por</defName>
+		<label>Tenente-Coronel</label>
+		<description>Tenente-Coronel</description>
+		<icon>PawnBadge/17-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>18por</defName>
+		<label>Coronel</label>
+		<description>Coronel</description>
+		<icon>PawnBadge/18-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>19por</defName>
+		<label>Brigadeiro</label>
+		<description>Brigadeiro</description>
+		<icon>PawnBadge/19-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>20por</defName>
+		<label>Major-General</label>
+		<description>Major-General</description>
+		<icon>PawnBadge/20-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>21por</defName>
+		<label>Tenente-General</label>
+		<description>Tenente-General</description>
+		<icon>PawnBadge/21-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>22por</defName>
+		<label>General</label>
+		<description>General</description>
+		<icon>PawnBadge/22-por</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>23por</defName>
+		<label>Marechal</label>
+		<description>Marechal</description>
+		<icon>PawnBadge/23-por</icon>
+	</RR_PawnBadge.BadgeDef>
+
+<!-- NEW SET -->
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Initiate</defName>
+		<label>Initiate</label>
+		<description>Initiate</description>
+		<icon>PawnBadge/Initiate</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Aspirant</defName>
+		<label>Aspirant</label>
+		<description>Aspirant</description>
+		<icon>PawnBadge/Aspirant</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Knight</defName>
+		<label>Knight</label>
+		<description>Knight</description>
+		<icon>PawnBadge/Knight</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>KnightCorporal</defName>
+		<label>Knight Corporal</label>
+		<description>Knight Corporal</description>
+		<icon>PawnBadge/KnightCorporal</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>KnightSergeant</defName>
+		<label>Knight Sergeant</label>
+		<description>Knight Sergeant</description>
+		<icon>PawnBadge/KnightSergeant</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>KnightLieutenant</defName>
+		<label>Knight Lieutenant</label>
+		<description>Knight Lieutenant</description>
+		<icon>PawnBadge/KnightLieutenant</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>KnightCaptain</defName>
+		<label>Knight Captain</label>
+		<description>Knight Captain</description>
+		<icon>PawnBadge/KnightCaptain</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>KnightCommander</defName>
+		<label>Knight Commander</label>
+		<description>Knight Commander</description>
+		<icon>PawnBadge/KnightCommander</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Paladin</defName>
+		<label>Paladin</label>
+		<description>Paladin</description>
+		<icon>PawnBadge/Paladin</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>PaladinCommander</defName>
+		<label>Paladin Commander</label>
+		<description>Paladin Commander</description>
+		<icon>PawnBadge/PaladinCommander</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>StarPaladin</defName>
+		<label>Star Paladin</label>
+		<description>Star Paladin</description>
+		<icon>PawnBadge/StarPaladin</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Sentinel</defName>
+		<label>Sentinel</label>
+		<description>Sentinel</description>
+		<icon>PawnBadge/Sentinel</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Elder</defName>
+		<label>Elder</label>
+		<description>Elder</description>
+		<icon>PawnBadge/Elder</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>HighElder</defName>
+		<label>High Elder</label>
+		<description>High Elder</description>
+		<icon>PawnBadge/HighElder</icon>
+	</RR_PawnBadge.BadgeDef>
+
+<!-- NEW SET -->
+
+<RR_PawnBadge.BadgeDef>
+		<defName>1-rookie</defName>
+		<label>1-rookie</label>
+		<description>1-rookie</description>
+		<icon>mcc-ranks/1-rookie</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>2-recruit</defName>
+		<label>2-recruitk</label>
+		<description>2-recruit</description>
+		<icon>mcc-ranks/2-recruit</icon>
+	</RR_PawnBadge.BadgeDef>
+		
+		<RR_PawnBadge.BadgeDef>
+		<defName>3-private</defName>
+		<label>3-private</label>
+		<description>3-private</description>
+		<icon>mcc-ranks/3-private</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>4-private-second</defName>
+		<label>4-private-second</label>
+		<description>4-private-second</description>
+		<icon>mcc-ranks/4-private-second</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>5-private-first</defName>
+		<label>5-private-first</label>
+		<description>5-private-first</description>
+		<icon>mcc-ranks/5-private-first</icon>
+	</RR_PawnBadge.BadgeDef>
+
+		<RR_PawnBadge.BadgeDef>
+		<defName>6-lance-corp</defName>
+		<label>6-lance-corp</label>
+		<description>6-lance-corp</description>
+		<icon>mcc-ranks/6-lance-corp</icon>
+	</RR_PawnBadge.BadgeDef>
+		
+		<RR_PawnBadge.BadgeDef>
+		<defName>7-corporal</defName>
+		<label>7-corporal</label>
+		<description>7-corporal</description>
+		<icon>mcc-ranks/7-corporal</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>8-sergeant</defName>
+		<label>8-sergeant</label>
+		<description>8-sergeant</description>
+		<icon>mcc-ranks/8-sergeant</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>9-sergeant-second</defName>
+		<label>9-sergeant-second</label>
+		<description>9-sergeant-second</description>
+		<icon>mcc-ranks/9-sergeant-second</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>10-sergeant-first</defName>
+		<label>10-sergeant-first</label>
+		<description>10-sergeant-first</description>
+		<icon>mcc-ranks/10-sergeant-first</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>11-staff-serg</defName>
+		<label>11-staff-serg</label>
+		<description>11-staff-serg</description>
+		<icon>mcc-ranks/11-staff-serg</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>12-gunnery-serg</defName>
+		<label>12-gunnery-serg</label>
+		<description>12-gunnery-serg</description>
+		<icon>mcc-ranks/12-gunnery-serg</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>13-first-sergeant</defName>
+		<label>13-first-sergeant</label>
+		<description>13-first-sergeant</description>
+		<icon>mcc-ranks/13-first-sergeant</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>14-sergeant-maj</defName>
+		<label>14-sergeant-maj</label>
+		<description>14-sergeant-maj</description>
+		<icon>mcc-ranks/14-sergeant-maj</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>15-comm-serg-maj</defName>
+		<label>15-comm-serg-maj</label>
+		<description>15-comm-serg-maj</description>
+		<icon>mcc-ranks/15-comm-serg-maj</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>16-war-off</defName>
+		<label>16-war-off</label>
+		<description>16-war-off</description>
+		<icon>mcc-ranks/16-war-off</icon>
+	</RR_PawnBadge.BadgeDef>
+					
+		<RR_PawnBadge.BadgeDef>
+		<defName>17-war-off-third</defName>
+		<label>17-war-off-third</label>
+		<description>17-war-off-third</description>
+		<icon>mcc-ranks/17-war-off-third</icon>
+	</RR_PawnBadge.BadgeDef>
+					
+		<RR_PawnBadge.BadgeDef>
+		<defName>18-war-off-second</defName>
+		<label>18-war-off-second</label>
+		<description>18-war-off-second</description>
+		<icon>mcc-ranks/18-war-off-second</icon>
+	</RR_PawnBadge.BadgeDef>
+					
+		<RR_PawnBadge.BadgeDef>
+		<defName>19-war-off-first</defName>
+		<label>19-war-off-first</label>
+		<description>19-war-off-first</description>
+		<icon>mcc-ranks/19-war-off-first</icon>
+	</RR_PawnBadge.BadgeDef>
+					
+		<RR_PawnBadge.BadgeDef>
+		<defName>20-chief-war-off</defName>
+		<label>20-chief-war-off</label>
+		<description>20-chief-war-off</description>
+		<icon>mcc-ranks/20-chief-war-off</icon>
+	</RR_PawnBadge.BadgeDef>
+					
+		<RR_PawnBadge.BadgeDef>
+		<defName>21-second-lt</defName>
+		<label>21-second-lt</label>
+		<description>21-second-lt</description>
+		<icon>mcc-ranks/21-second-lt</icon>
+	</RR_PawnBadge.BadgeDef>
+						
+		<RR_PawnBadge.BadgeDef>
+		<defName>22-first-lt</defName>
+		<label>22-first-lt</label>
+		<description>22-first-lt</description>
+		<icon>mcc-ranks/22-first-lt</icon>
+	</RR_PawnBadge.BadgeDef>
+							
+		<RR_PawnBadge.BadgeDef>
+		<defName>23-captain</defName>
+		<label>23-captain</label>
+		<description>23-captain</description>
+		<icon>mcc-ranks/23-captain</icon>
+	</RR_PawnBadge.BadgeDef>
+							
+		<RR_PawnBadge.BadgeDef>
+		<defName>24-major</defName>
+		<label>24-major</label>
+		<description>24-major</description>
+		<icon>mcc-ranks/24-major</icon>
+	</RR_PawnBadge.BadgeDef>
+							
+		<RR_PawnBadge.BadgeDef>
+		<defName>25-lt-colonel</defName>
+		<label>25-lt-colonel</label>
+		<description>25-lt-colonel</description>
+		<icon>mcc-ranks/25-lt-colonel</icon>
+	</RR_PawnBadge.BadgeDef>
+							
+		<RR_PawnBadge.BadgeDef>
+		<defName>26-colonel</defName>
+		<label>26-colonel</label>
+		<description>26-colonel</description>
+		<icon>mcc-ranks/26-colonel</icon>
+	</RR_PawnBadge.BadgeDef>
+							
+		<RR_PawnBadge.BadgeDef>
+		<defName>27-brig-gen</defName>
+		<label>27-brig-gen</label>
+		<description>27-brig-gen</description>
+		<icon>mcc-ranks/27-brig-gen</icon>
+	</RR_PawnBadge.BadgeDef>
+							
+		<RR_PawnBadge.BadgeDef>
+		<defName>28-maj-gen</defName>
+		<label>28-maj-gen</label>
+		<description>28-maj-gen</description>
+		<icon>mcc-ranks/28-maj-gen</icon>
+	</RR_PawnBadge.BadgeDef>
+							
+		<RR_PawnBadge.BadgeDef>
+		<defName>29-lt-gen</defName>
+		<label>29-lt-gen</label>
+		<description>29-lt-gen</description>
+		<icon>mcc-ranks/29-lt-gen</icon>
+	</RR_PawnBadge.BadgeDef>
+							
+		<RR_PawnBadge.BadgeDef>
+		<defName>30-general</defName>
+		<label>30-general</label>
+		<description>30-general</description>
+		<icon>mcc-ranks/30-general</icon>
+	</RR_PawnBadge.BadgeDef>
+							
+		<RR_PawnBadge.BadgeDef>
+		<defName>31-tour-11</defName>
+		<label>31-tour-11</label>
+		<description>31-tour-11</description>
+		<icon>mcc-ranks/31-tour-11</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+<!-- NEW SET -->
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Recruit</defName>
+		<label>Recruit</label>
+		<description>Rimworld - Recruit</description>
+		<icon>PawnBadge/0_RCT</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Private</defName>
+		<label>Private</label>
+		<description>Rimworld - Private</description>
+		<icon>PawnBadge/1_PVT</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Corporal</defName>
+		<label>Corporal</label>
+		<description>Rimworld - Corporal</description>
+		<icon>PawnBadge/2_CPL</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Sergeant</defName>
+		<label>Sergeant</label>
+		<description>Rimworld - Sergeant</description>
+		<icon>PawnBadge/3_SGT</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Staff_Sergeant</defName>
+		<label>Staff_Sergeant</label>
+		<description>Rimworld - Staff Sergeant</description>
+		<icon>PawnBadge/4_SSGT</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Warrant_Officer</defName>
+		<label>Warrant_Officer</label>
+		<description>Rimworld - Warrant Officer</description>
+		<icon>PawnBadge/5_WO</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_2LT</defName>
+		<label>Second_Lieutenant</label>
+		<description>Rimworld - Second Lieutenant</description>
+		<icon>PawnBadge/6_2LT</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_1LT</defName>
+		<label>First_Lieutenant</label>
+		<description>Rimworld - First Lieutenant</description>
+		<icon>PawnBadge/7_1LT</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Captain</defName>
+		<label>Captain</label>
+		<description>Rimworld - Captain</description>
+		<icon>PawnBadge/8_CPT</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Major</defName>
+		<label>Major</label>
+		<description>Rimworld - Major</description>
+		<icon>PawnBadge/9_MJR</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_LTCol</defName>
+		<label>Lieutenant_Colonel</label>
+		<description>Rimworld - Lieutenant Colonel</description>
+		<icon>PawnBadge/10_LTC</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Colonel</defName>
+		<label>Colonel</label>
+		<description>Rimworld - Colonel</description>
+		<icon>PawnBadge/11_COL</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Brigeneral</defName>
+		<label>Brigadier_General</label>
+		<description>Rimworld - Brigadier General</description>
+		<icon>PawnBadge/12_BGEN</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_MajorGeneral</defName>
+		<label>Major_General</label>
+		<description>Rimworld - Major General</description>
+		<icon>PawnBadge/13_MGEN</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_LtGeneral</defName>
+		<label>Lieutenant_General</label>
+		<description>Rimworld - Lieutenant General</description>
+		<icon>PawnBadge/14_LGEN</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_General</defName>
+		<label>General</label>
+		<description>Rimworld - General</description>
+		<icon>PawnBadge/15_GEN</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RWOCR_Marshal</defName>
+		<label>Marshal</label>
+		<description>Rimworld - Marshal</description>
+		<icon>PawnBadge/16_MSH</icon>
+	</RR_PawnBadge.BadgeDef>
+
+<!-- NEW SET -->
+
+<RR_PawnBadge.BadgeDef>
+		<defName>G-01</defName>
+		<label>G-01</label>
+		<description>G-01</description>
+		<icon>roman-nums-1/G-01</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-02</defName>
+		<label>G-02k</label>
+		<description>G-02</description>
+		<icon>roman-nums-1/G-02</icon>
+	</RR_PawnBadge.BadgeDef>
+		
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-03</defName>
+		<label>G-03</label>
+		<description>G-03</description>
+		<icon>roman-nums-1/G-03</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-04</defName>
+		<label>G-04</label>
+		<description>G-04</description>
+		<icon>roman-nums-1/G-04</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-05</defName>
+		<label>G-05</label>
+		<description>G-05</description>
+		<icon>roman-nums-1/G-05</icon>
+	</RR_PawnBadge.BadgeDef>
+
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-06</defName>
+		<label>G-06</label>
+		<description>G-06</description>
+		<icon>roman-nums-1/G-06</icon>
+	</RR_PawnBadge.BadgeDef>
+		
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-07</defName>
+		<label>G-07</label>
+		<description>G-07</description>
+		<icon>roman-nums-1/G-07</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-08</defName>
+		<label>G-08</label>
+		<description>G-08</description>
+		<icon>roman-nums-1/G-08</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-09</defName>
+		<label>G-09</label>
+		<description>G-09</description>
+		<icon>roman-nums-1/G-09</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-10</defName>
+		<label>G-10</label>
+		<description>G-10</description>
+		<icon>roman-nums-1/G-10</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-11</defName>
+		<label>G-11</label>
+		<description>G-11</description>
+		<icon>roman-nums-1/G-11</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-12</defName>
+		<label>G-12</label>
+		<description>G-12</description>
+		<icon>roman-nums-1/G-12</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-13</defName>
+		<label>G-13</label>
+		<description>G-13</description>
+		<icon>roman-nums-1/G-13</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-14</defName>
+		<label>G-14</label>
+		<description>G-14</description>
+		<icon>roman-nums-1/G-14</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>G-15</defName>
+		<label>G-15</label>
+		<description>G-15</description>
+		<icon>roman-nums-1/G-15</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<!--  AUTHOR DIVISION SILVER GOLD -->
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>S-01</defName>
+		<label>S-01</label>
+		<description>S-01</description>
+		<icon>roman-nums-1/S-01</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-02</defName>
+		<label>S-02k</label>
+		<description>S-02</description>
+		<icon>roman-nums-1/S-02</icon>
+	</RR_PawnBadge.BadgeDef>
+		
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-03</defName>
+		<label>S-03</label>
+		<description>S-03</description>
+		<icon>roman-nums-1/S-03</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-04</defName>
+		<label>S-04</label>
+		<description>S-04</description>
+		<icon>roman-nums-1/S-04</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-05</defName>
+		<label>S-05</label>
+		<description>S-05</description>
+		<icon>roman-nums-1/S-05</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-06</defName>
+		<label>S-06</label>
+		<description>S-06</description>
+		<icon>roman-nums-1/S-06</icon>
+	</RR_PawnBadge.BadgeDef>
+		
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-07</defName>
+		<label>S-07</label>
+		<description>S-07</description>
+		<icon>roman-nums-1/S-07</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-08</defName>
+		<label>S-08</label>
+		<description>S-08</description>
+		<icon>roman-nums-1/S-08</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-09</defName>
+		<label>S-09</label>
+		<description>S-09</description>
+		<icon>roman-nums-1/S-09</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-10</defName>
+		<label>S-10</label>
+		<description>S-10</description>
+		<icon>roman-nums-1/S-10</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-11</defName>
+		<label>S-11</label>
+		<description>S-11</description>
+		<icon>roman-nums-1/S-11</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-12</defName>
+		<label>S-12</label>
+		<description>S-12</description>
+		<icon>roman-nums-1/S-12</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-13</defName>
+		<label>S-13</label>
+		<description>S-13</description>
+		<icon>roman-nums-1/S-13</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-14</defName>
+		<label>S-14</label>
+		<description>S-14</description>
+		<icon>roman-nums-1/S-14</icon>
+	</RR_PawnBadge.BadgeDef>
+			
+		<RR_PawnBadge.BadgeDef>
+		<defName>S-15</defName>
+		<label>S-15</label>
+		<description>S-15</description>
+		<icon>roman-nums-1/S-15</icon>
+	</RR_PawnBadge.BadgeDef>
+
+<!-- NEW SET -->
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_Recruit</defName>
+		<label>Commoner</label>
+		<description>Skill Level - Utter Beginner</description>
+		<icon>PawnBadge/0_CMN</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_Apprentice</defName>
+		<label>Colonist-Apprentice</label>
+		<description>Skill Level - Beginner</description>
+		<icon>PawnBadge/1_CLA</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_Colonist</defName>
+		<label>Second_Class_Colonist</label>
+		<description>Skill Level - Basic Familiarity</description>
+		<icon>PawnBadge/2_CLN2</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_Pioneer</defName>
+		<label>First_Class_Colonist</label>
+		<description>Skill Level - Some Familiarity</description>
+		<icon>PawnBadge/3_CLN1</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_Deputy</defName>
+		<label>Deputy</label>
+		<description>Skill Level - Significiant Familiarity</description>
+		<icon>PawnBadge/4_RMW</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_ChiefDeputy</defName>
+		<label>Chief_Deputy</label>
+		<description>Skill Level - Capable Amateur</description>
+		<icon>PawnBadge/5_CRMW</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_Appointee</defName>
+		<label>Appointee</label>
+		<description>Skill Level - Weak Professional</description>
+		<icon>PawnBadge/6_SRMW</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_Ensign</defName>
+		<label>Ensign</label>
+		<description>Skill Level - Employable Professional</description>
+		<icon>PawnBadge/7_ENS</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_ChiefEnsign</defName>
+		<label>Chief_Ensign</label>
+		<description>Skill Level - Solid Professional</description>
+		<icon>PawnBadge/8_CENS</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_StaffEnsign</defName>
+		<label>Staff_Ensign</label>
+		<description>Skill Level - Skilled Professional</description>
+		<icon>PawnBadge/9_SENS</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_Usher</defName>
+		<label>Usher</label>
+		<description>Skill Level - Very Skilled Professional</description>
+		<icon>PawnBadge/10_USHR</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_ColonyMajor</defName>
+		<label>Colony-Major</label>
+		<description>Skill Level - Expert</description>
+		<icon>PawnBadge/11_MJR</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_ChfColMjr</defName>
+		<label>Chief_Colony-Major</label>
+		<description>Skill Level - Strong Expert</description>
+		<icon>PawnBadge/12_CMJR</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_StfColMjr</defName>
+		<label>Staff_Colony-Major</label>
+		<description>Skill Level - Master</description>
+		<icon>PawnBadge/13_SMJR</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_MandateMajor</defName>
+		<label>Mandate-Major1</label>
+		<description>Skill Level - Strong Master</description>
+		<icon>PawnBadge/14_CLMR</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_PrincipalMajor</defName>
+		<label>Mandate-Major2</label>
+		<description>Skill Level - Region-Known Master</description>
+		<icon>PawnBadge/15_CCMR</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_PremierMajor</defName>
+		<label>Mandate-Major3</label>
+		<description>Skill Level - Region-Leading Master</description>
+		<icon>PawnBadge/16_CSMR</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_CommMajor</defName>
+		<label>Community-Major</label>
+		<description>Skill Level - Planet-Known Master</description>
+		<icon>PawnBadge/17_CMNC</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_CommCommander</defName>
+		<label>Community-Commander</label>
+		<description>Skill Level - Planet-Leading Master</description>
+		<icon>PawnBadge/18_CMNM</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>RHDF_CommPremier</defName>
+		<label>Community-Premier</label>
+		<description>Skill Level - Legendary Master</description>
+		<icon>PawnBadge/19_CMNO</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+<!-- NEW SET - THESE ARE FOR YOUR BADGES!-->
+
+</Defs>

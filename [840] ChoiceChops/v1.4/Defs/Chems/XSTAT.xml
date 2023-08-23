@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>XSTATinjected</defName>
+    <description>XSTAT is injected into the wound, sealing it almost instantly. Painful, but will prevent bleeding out.</description>
+    <label>XSTAT injected</label>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <totalBleedFactor>0.1</totalBleedFactor>
+			<painOffset>0.2</painOffset>
+			<painFactor>1.25</painFactor>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2.5</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>12500~14500</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>XSTAT</defName>
+    <label>XSTAT</label>
+    <description>a small hemostatic device for the treatment of gunshot and shrapnel wounds. XSTAT works by injecting small, rapidly-expanding sponges into a wound cavity using a syringe-like applicator.</description>
+    <descriptionHyperlinks>
+      <HediffDef>XSTATinjected</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Chems/XSTAT</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>450</WorkToMake>
+      <Mass>0.25</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>XSTATinjected</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <MedicineHerbal>3</MedicineHerbal>
+      <Cloth>20</Cloth>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+    <orderedTakeGroup>Medicine</orderedTakeGroup>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <!--===================== Non Commisioned Members ======================-->
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_PVT</defName>
+		<label>Private</label>
+		<description>Private</description>
+		<icon>PawnBadge/Canadian Forces/cf_private</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_CPL</defName>
+		<label>Corporal</label>
+		<description>Corporal</description>
+		<icon>PawnBadge/Canadian Forces/cf_corporal</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_MCPL</defName>
+		<label>Master Corporal</label>
+		<description>Master Corporal</description>
+		<icon>PawnBadge/Canadian Forces/cf_master-corporal</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_SGT</defName>
+		<label>Sergeant</label>
+		<description>Sergeant</description>
+		<icon>PawnBadge/Canadian Forces/cf_sergeant</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_WO</defName>
+		<label>Warrant Officer</label>
+		<description>Warrant Officer</description>
+		<icon>PawnBadge/Canadian Forces/cf_warrant-officer</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_MWO</defName>
+		<label>Master Warrant Officer</label>
+		<description>Master Warrant Officer</description>
+		<icon>PawnBadge/Canadian Forces/cf_master-warrant-officer</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_CWO</defName>
+		<label>Chief Warrant Officer</label>
+		<description>Chief Warrant Officer</description>
+		<icon>PawnBadge/Canadian Forces/cf_chief-warrant-officer</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+   <!--===================== Subordinate Officers ======================-->	
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_OCdt</defName>
+		<label>Officer Cadet</label>
+		<description>Officer Cadet</description>
+		<icon>PawnBadge/Canadian Forces/cf_officer-cadet</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+   <!--===================== Junior Officers ======================-->	
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_2ndLt</defName>
+		<label>2nd Lieutenant</label>
+		<description>2nd Lieutenant</description>
+		<icon>PawnBadge/Canadian Forces/cf_lieutenant-2</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_Lt</defName>
+		<label>Lieutenant</label>
+		<description>Lieutenant</description>
+		<icon>PawnBadge/Canadian Forces/cf_lieutenant</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_Capt</defName>
+		<label>Captain</label>
+		<description>Captain</description>
+		<icon>PawnBadge/Canadian Forces/cf_captain</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+   <!--===================== Senior Officers ======================-->	
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_Maj</defName>
+		<label>Major</label>
+		<description>Major</description>
+		<icon>PawnBadge/Canadian Forces/cf_major</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_LCol</defName>
+		<label>Lieutenant Colonel</label>
+		<description>Lieutenant Colonel</description>
+		<icon>PawnBadge/Canadian Forces/cf_lieutenant-colonel</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_Col</defName>
+		<label>Colonel</label>
+		<description>Colonel</description>
+		<icon>PawnBadge/Canadian Forces/cf_colonel</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+   <!--===================== General Officers ======================-->		
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_BGen</defName>
+		<label>Brigadier General</label>
+		<description>Brigadier General</description>
+		<icon>PawnBadge/Canadian Forces/cf_brigadier-general</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_MGen</defName>
+		<label>Major General</label>
+		<description>Major General</description>
+		<icon>PawnBadge/Canadian Forces/cf_major-general</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_LGen</defName>
+		<label>Lieutenant General</label>
+		<description>Lieutenant General</description>
+		<icon>PawnBadge/Canadian Forces/cf_lieutenant-general</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>CF_Gen</defName>
+		<label>General</label>
+		<description>General</description>
+		<icon>PawnBadge/Canadian Forces/cf_general</icon>
+	</RR_PawnBadge.BadgeDef>
+
+</Defs>

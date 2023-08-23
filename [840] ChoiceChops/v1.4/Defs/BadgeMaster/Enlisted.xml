@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Recruit</defName>
+		<label>Recruit</label>
+		<description>(Fleet) Recruit</description>
+		<icon>PawnBadge/Enlisted/1_Recruit</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Private</defName>
+		<label>Private</label>
+		<description>(Fleet) Private</description>
+		<icon>PawnBadge/Enlisted/2_Private</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>PrivateFC</defName>
+		<label>Private First Class</label>
+		<description>(Fleet) Private First Class</description>
+		<icon>PawnBadge/Enlisted/3_PrivateFC</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Specialist</defName>
+		<label>Specialist</label>
+		<description>(Fleet) Specialist</description>
+		<icon>PawnBadge/Enlisted/4_Specialist</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SpecialistFC</defName>
+		<label>Specialist First Class</label>
+		<description>(Fleet) Specialist First Class</description>
+		<icon>PawnBadge/Enlisted/5_SpecialistFC</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ThirdPetty</defName>
+		<label>3rd Petty Officer</label>
+		<description>(Fleet) 3rd Petty Officer</description>
+		<icon>PawnBadge/Enlisted/6_ThirdPetty</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SecondPetty</defName>
+		<label>2nd Petty Officer</label>
+		<description>(Fleet) 2nd Petty Officer</description>
+		<icon>PawnBadge/Enlisted/7_SecondPetty</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>FirstPetty</defName>
+		<label>1st Petty Officer</label>
+		<description>(Fleet) 1st Petty Officer</description>
+		<icon>PawnBadge/Enlisted/8_FirstPetty</icon>
+	</RR_PawnBadge.BadgeDef>
+ 
+	<RR_PawnBadge.BadgeDef>
+		<defName>PettyFC</defName>
+		<label>Elite Petty Officer</label>
+		<description>(Fleet) Elite Petty Officer</description>
+		<icon>PawnBadge/Enlisted/9_PettyFC</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>ChiefPO</defName>
+		<label>Chief Petty Officer</label>
+		<description>(Fleet) Chief Petty Officer</description>
+		<icon>PawnBadge/Enlisted/10_ChiefPO</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SeniorChiefPO</defName>
+		<label>Senior Chief Petty Officer</label>
+		<description>(Fleet) Senior Cief Petty Officer</description>
+		<icon>PawnBadge/Enlisted/11_SeniorChiefPO</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MasterChiefPO</defName>
+		<label>Master Chief Petty Officer</label>
+		<description>(Fleet) Master Chief Petty Officer</description>
+		<icon>PawnBadge/Enlisted/12_MasterChiefPO</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SeniorChiefCOM</defName>
+		<label>Senior Chief (Command)</label>
+		<description>(Fleet) Senior Chief (Command)</description>
+		<icon>PawnBadge/Enlisted/13_SeniorChiefCOM</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MasterChiefCOM</defName>
+		<label>Master Chief (Command)</label>
+		<description>(Fleet) Master Chief (Command)</description>
+		<icon>PawnBadge/Enlisted/14_MasterChiefCOM</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MasterChiefFLOT</defName>
+		<label>Master Chief (Flotilla)</label>
+		<description>(Fleet) Master Chief (Flotilla)</description>
+		<icon>PawnBadge/Enlisted/15_MasterChiefFLOT</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MasterChiefSTRGRP</defName>
+		<label>Master Chief (Star Group)</label>
+		<description>(Fleet) Master Chief (Star Group)</description>
+		<icon>PawnBadge/Enlisted/16_MasterChiefSTRGRP</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MasterChiefFLT</defName>
+		<label>Master Chief (Fleet)</label>
+		<description>(Fleet) Master Chief (Fleet)</description>
+		<icon>PawnBadge/Enlisted/17_MasterChiefFLT</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>LtColonel</defName>
+		<label>Lieutenant Colonel</label>
+		<description>(Fleet) Lieutenant Colonel</description>
+		<icon>PawnBadge/Enlisted/18_LtColonel</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Colonel</defName>
+		<label>Colonel</label>
+		<description>(Fleet) Colonel</description>
+		<icon>PawnBadge/Enlisted/19_Colonel</icon>
+	</RR_PawnBadge.BadgeDef>
+
+</Defs>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>SpecOps</defName>
+		<label>Special Operations</label>
+		<description>(Fleet) Special Operations Ribbon</description>
+		<icon>PawnBadge/Ribbons/1_SpecOps</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Art</defName>
+		<label>Artistry Specialist</label>
+		<description>(Fleet) Artistry Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/2_Art</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Cleaning</defName>
+		<label>Sanitation Specialist</label>
+		<description>(Fleet) Sanitation Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/3_Cleaning</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Construction</defName>
+		<label>Construction Specialist</label>
+		<description>(Fleet) Construction Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/4_Construction</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Tailoring</defName>
+		<label>Tailoring Specialist</label>
+		<description>(Fleet) Tailoring Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/5_Tailoring</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Smithing</defName>
+		<label>Smithing Specialist</label>
+		<description>(Fleet) Smithing Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/6_Smithing</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Crafting</defName>
+		<label>Crafting Specialist</label>
+		<description>(Fleet) Crafting Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/7_Crafting</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Physician</defName>
+		<label>Fleet Physician</label>
+		<description>(Fleet) Fleet Physician Ribbon</description>
+		<icon>PawnBadge/Ribbons/8_Physician</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Surgery</defName>
+		<label>Fleet Surgeon</label>
+		<description>(Fleet) Fleet Surgeon Ribbon</description>
+		<icon>PawnBadge/Ribbons/9_Surgery</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Psychiatry</defName>
+		<label>Fleet Psychiatrist</label>
+		<description>(Fleet) Fleet Psychiatrist Ribbon</description>
+		<icon>PawnBadge/Ribbons/10_Psychiatry</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Nurse</defName>
+		<label>Fleet Nurse Corps</label>
+		<description>(Fleet) Fleet Nurse Corps Ribbon</description>
+		<icon>PawnBadge/Ribbons/11_Nurse</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Pharmacy</defName>
+		<label>Fleet Pharmacist</label>
+		<description>(Fleet) Fleet Pharmacist Ribbon</description>
+		<icon>PawnBadge/Ribbons/12_Pharmacy</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Veterinary</defName>
+		<label>Fleet Veterinarian</label>
+		<description>(Fleet) Fleet Veterinarian Ribbon</description>
+		<icon>PawnBadge/Ribbons/13_Veterinary</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Science</defName>
+		<label>Research Division</label>
+		<description>(Fleet) Research Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/14_Science</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Chef</defName>
+		<label>Culinary Dvision</label>
+		<description>(Fleet) Culinary Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/15_Chef</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Husbandry</defName>
+		<label>Husbandry Division</label>
+		<description>(Fleet) Husbandry Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/16_Husbandry</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Aquaculture</defName>
+		<label>Aquaculture Specialist</label>
+		<description>(Fleet) Aquaculture Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/17_Aquaculture</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Butchery</defName>
+		<label>Butchery Specialist</label>
+		<description>(Fleet) Butchery Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/18_Butchery</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Agriculture</defName>
+		<label>Agriculture Division</label>
+		<description>(Fleet) Agriculture Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/19_Agriculture</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Chaplain</defName>
+		<label>Fleet Chaplain</label>
+		<description>(Fleet) Fleet Chaplain Ribbon</description>
+		<icon>PawnBadge/Ribbons/20_Chaplain</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Social</defName>
+		<label>Public Relations Division</label>
+		<description>(Fleet) Public Relations Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/21_Social</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Education</defName>
+		<label>Training Corp</label>
+		<description>(Fleet) Training Corp Ribbon</description>
+		<icon>PawnBadge/Ribbons/22_Education</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Logistics</defName>
+		<label>Logistics Division</label>
+		<description>(Fleet) Logistics Corp Ribbon</description>
+		<icon>PawnBadge/Ribbons/23_Logistics</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>DamageControl</defName>
+		<label>Damage Control Division</label>
+		<description>(Fleet) Damage Control Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/24_DamageControl</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Power</defName>
+		<label>Power Control Division</label>
+		<description>(Fleet) Power Control Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/25_Power</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Nuclear</defName>
+		<label>Nuclear Specialist</label>
+		<description>(Fleet) Nuclear Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/26_Nuclear</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Refining</defName>
+		<label>Refining Specialist</label>
+		<description>(Fleet) Refining Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/27_Refining</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Mining</defName>
+		<label>Resource Extraction Specialist</label>
+		<description>(Fleet) Resource Extraction Specialist Ribbon</description>
+		<icon>PawnBadge/Ribbons/28_Mining</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Pilot</defName>
+		<label>Fighter Pilot</label>
+		<description>(Fleet) Fighter Pilot Ribbon</description>
+		<icon>PawnBadge/Ribbons/29_Pilot</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Recon</defName>
+		<label>Reconnaissance Division</label>
+		<description>(Fleet) Reconnaissance Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/36_Recon</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Security</defName>
+		<label>Security Division</label>
+		<description>(Fleet) Security Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/37_Security</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Tactical</defName>
+		<label>Marine Division</label>
+		<description>(Fleet) Marine Division Ribbon</description>
+		<icon>PawnBadge/Ribbons/38_Tactical</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>JudgeAdvocate</defName>
+		<label>Warden</label>
+		<description>(Fleet) Warden Ribbon</description>
+		<icon>PawnBadge/Ribbons/39_JudgeAdvocate</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>RoyalGuard</defName>
+		<label>Royal Guard</label>
+		<description>(Fleet) Royal Guard Ribbon</description>
+		<icon>PawnBadge/Ribbons/40_RoyalGuard</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ChiefMedical</defName>
+		<label>Chief Medical Officer</label>
+		<description>(Fleet) Chief Medical Officer Ribbon</description>
+		<icon>PawnBadge/Ribbons/41_ChiefMedical</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ChiefScience</defName>
+		<label>Chief Research Officer</label>
+		<description>(Fleet) Chief Research Officer Ribbon</description>
+		<icon>PawnBadge/Ribbons/42_ChiefScience</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ChiefAgriculture</defName>
+		<label>Chief Agricultural Officer</label>
+		<description>(Fleet) Chief Agricultural Officer Ribbon</description>
+		<icon>PawnBadge/Ribbons/43_ChiefAgriculture</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ChiefEngineer</defName>
+		<label>Chief Engineer</label>
+		<description>(Fleet) Chief Engineer Ribbon</description>
+		<icon>PawnBadge/Ribbons/44_ChiefEngineer</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>MasterAtArms</defName>
+		<label>Master-At-Arms</label>
+		<description>(Fleet) Master-At-Arms Ribbon</description>
+		<icon>PawnBadge/Ribbons/45_MasterAtArms</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ChiefMining</defName>
+		<label>Chief Resource Officer</label>
+		<description>(Fleet) Chief Resource Officer Ribbon</description>
+		<icon>PawnBadge/Ribbons/46_ChiefMining</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Quartermaster</defName>
+		<label>Quartermaster</label>
+		<description>(Fleet) Quartermaster Ribbon</description>
+		<icon>PawnBadge/Ribbons/52_Quartermaster</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>LeaderSovereign</defName>
+		<label>Triumvirate - Sovereign of the People</label>
+		<description>(Fleet) Triumvirate - Sovereign of the People Ribbon</description>
+		<icon>PawnBadge/Ribbons/47_LeaderSovereign</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>LeaderGeneral</defName>
+		<label>Triumvirate - Sovereign of the Military</label>
+		<description>(Fleet) Triumvirate - Sovereign of the Military Ribbon</description>
+		<icon>PawnBadge/Ribbons/48_LeaderGeneral</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>LeaderAdmiral</defName>
+		<label>Triumvirate - Sovereign of the Fleet</label>
+		<description>(Fleet) Triumvirate - Sovereign of the Fleet Ribbon</description>
+		<icon>PawnBadge/Ribbons/49_LeaderAdmiral</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>LeaderRoyal</defName>
+		<label>Royal Diplomat</label>
+		<description>(Fleet) Royal Diplomat Ribbon</description>
+		<icon>PawnBadge/Ribbons/50_LeaderRoyal</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Psychic</defName>
+		<label>Elite Psycaster</label>
+		<description>(Fleet) Elite Psycaster Ribbon</description>
+		<icon>PawnBadge/Ribbons/51_Psychic</icon>
+	</RR_PawnBadge.BadgeDef>
+</Defs>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Animal</defName>
+		<label>Animal</label>
+		<description>Animal</description>
+		<icon>PawnBadge/BVE/animal</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Animal01</defName>
+		<label>Animal01</label>
+		<description>Animal 01</description>
+		<icon>PawnBadge/BVE/animal1</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Art</defName>
+		<label>Art</label>
+		<description>Art</description>
+		<icon>PawnBadge/BVE/art</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Baby</defName>
+		<label>Baby</label>
+		<description>Baby</description>
+		<icon>PawnBadge/BVE/baby</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Bones</defName>
+		<label>Bones</label>
+		<description>Bones</description>
+		<icon>PawnBadge/BVE/bones</icon>
+		<fromBaseMod>false</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Boxes</defName>
+		<label>Boxes</label>
+		<description>Boxes</description>
+		<icon>PawnBadge/BVE/boxes</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Brain</defName>
+		<label>Brain</label>
+		<description>Brain</description>
+		<icon>PawnBadge/BVE/brain</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Brush</defName>
+		<label>Brush</label>
+		<description>Brush</description>
+		<icon>PawnBadge/BVE/brush</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Cancel</defName>
+		<label>Cancel</label>
+		<description>Cancel</description>
+		<icon>PawnBadge/BVE/cancel</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Checked</defName>
+		<label>Checked</label>
+		<description>Checked</description>
+		<icon>PawnBadge/BVE/checked</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Chat</defName>
+		<label>Chat</label>
+		<description>Chat</description>
+		<icon>PawnBadge/BVE/chat</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Chat01</defName>
+		<label>Chat01</label>
+		<description>Chat 01</description>
+		<icon>PawnBadge/BVE/chat1</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Checklist</defName>
+		<label>Checklist</label>
+		<description>Checklist</description>
+		<icon>PawnBadge/BVE/checklist</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Chef</defName>
+		<label>Chef</label>
+		<description>Chef</description>
+		<icon>PawnBadge/BVE/chef</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Chef1</defName>
+		<label>Chef 01</label>
+		<description>Chef 01</description>
+		<icon>PawnBadge/BVE/chef1</icon>
+		<fromBaseMod>false</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Construction</defName>
+		<label>Construction</label>
+		<description>Construction</description>
+		<icon>PawnBadge/BVE/construction</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Destination</defName>
+		<label>Destination</label>
+		<description>Destination</description>
+		<icon>PawnBadge/BVE/destination</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_FaceAngy</defName>
+		<label>Face Angy</label>
+		<description>Face Angry</description>
+		<icon>PawnBadge/BVE/face-angry</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_FaceFrowned</defName>
+		<label>Face Frowned</label>
+		<description>Face Frowned</description>
+		<icon>PawnBadge/BVE/face-frowned</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_FaceNeutral</defName>
+		<label>Face Neutral</label>
+		<description>Face Neutral</description>
+		<icon>PawnBadge/BVE/face-neutral</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_FaceSmiling</defName>
+		<label>Face Smiling</label>
+		<description>Face Smiling</description>
+		<icon>PawnBadge/BVE/face-smiling</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_FaceUnamused</defName>
+		<label>Face Unamused</label>
+		<description>Face Unamused</description>
+		<icon>PawnBadge/BVE/face-unamused</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Fire</defName>
+		<label>Fire</label>
+		<description>Fire</description>
+		<icon>PawnBadge/BVE/fire</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_FireExtinguisher</defName>
+		<label>Fire Extinguisher</label>
+		<description>Fire Extinguisher</description>
+		<icon>PawnBadge/BVE/fire-extinguisher</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_First_Aid_Box</defName>
+		<label>First Aid Box</label>
+		<description>First Aid Box</description>
+		<icon>PawnBadge/BVE/first-aid-box</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Pharmacy</defName>
+		<label>Pharmacy</label>
+		<description>Pharmacy</description>
+		<icon>PawnBadge/BVE/pharmacy</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Pills</defName>
+		<label>Pills</label>
+		<description>Pills</description>
+		<icon>PawnBadge/BVE/pills</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+		<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Medicine</defName>
+		<label>Medicine</label>
+		<description>Medicine</description>
+		<icon>PawnBadge/BVE/medicine</icon>
+		<fromBaseMod>false</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Heartbeat</defName>
+		<label>Heartbeat</label>
+		<description>Heartbeat</description>
+		<icon>PawnBadge/BVE/heartbeat</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Idea</defName>
+		<label>Idea</label>
+		<description>Idea</description>
+		<icon>PawnBadge/BVE/idea</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Knife</defName>
+		<label>Knife</label>
+		<description>Knife</description>
+		<icon>PawnBadge/BVE/knife</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Knife01</defName>
+		<label>Knife and Fork</label>
+		<description>Knife and Fork</description>
+		<icon>PawnBadge/BVE/knife1</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Luggage</defName>
+		<label>Luggage</label>
+		<description>Luggage</description>
+		<icon>PawnBadge/BVE/luggage</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Map</defName>
+		<label>Map</label>
+		<description>Map</description>
+		<icon>PawnBadge/BVE/map</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Medal</defName>
+		<label>Medal</label>
+		<description>Medal</description>
+		<icon>PawnBadge/BVE/medal</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_NoEntry</defName>
+		<label>No Entry</label>
+		<description>No Entry</description>
+		<icon>PawnBadge/BVE/no-entry</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_NoWeapons</defName>
+		<label>No Weapons</label>
+		<description>No Weapons</description>
+		<icon>PawnBadge/BVE/no-weapons</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Oil</defName>
+		<label>Oil</label>
+		<description>Oil</description>
+		<icon>PawnBadge/BVE/oil</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Pawprint</defName>
+		<label>Pawprint</label>
+		<description>Pawprint</description>
+		<icon>PawnBadge/BVE/paw-print</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Pawprint01</defName>
+		<label>Pawprint01</label>
+		<description>Pawprint 01</description>
+		<icon>PawnBadge/BVE/paw-print1</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Pickaxe</defName>
+		<label>Pickaxe</label>
+		<description>Pickaxe</description>
+		<icon>PawnBadge/BVE/pickaxe</icon>
+		<fromBaseMod>false</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Pickaxe1</defName>
+		<label>Pickaxe 01</label>
+		<description>Pickaxe 01</description>
+		<icon>PawnBadge/BVE/pickaxe1</icon>
+		<fromBaseMod>false</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Picture</defName>
+		<label>Picture</label>
+		<description>Picture</description>
+		<icon>PawnBadge/BVE/picture</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Recycling</defName>
+		<label>Recycling</label>
+		<description>Recycling</description>
+		<icon>PawnBadge/BVE/recycling</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Sapling</defName>
+		<label>Sapling</label>
+		<description>Sapling</description>
+		<icon>PawnBadge/BVE/sapling</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Service</defName>
+		<label>Service</label>
+		<description>Service</description>
+		<icon>PawnBadge/BVE/service</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Pistol</defName>
+		<label>Pistol</label>
+		<description>Pistol</description>
+		<icon>PawnBadge/BVE/pistol</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Rifle</defName>
+		<label>Rifle</label>
+		<description>Rifle</description>
+		<icon>PawnBadge/BVE/rifle</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Hunter</defName>
+		<label>Hunter</label>
+		<description>Hunter</description>
+		<icon>PawnBadge/BVE/hunter</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Shotgun</defName>
+		<label>Shotgun</label>
+		<description>Shotgun</description>
+		<icon>PawnBadge/BVE/shotgun</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Sword</defName>
+		<label>Sword</label>
+		<description>Sword</description>
+		<icon>PawnBadge/BVE/sword</icon>
+		<fromBaseMod>false</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_MolotovCocktail</defName>
+		<label>Molotov Cocktail</label>
+		<description>Molotov Cocktail</description>
+		<icon>PawnBadge/BVE/molotov-cocktail</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Tealeaf</defName>
+		<label>Tealeaf</label>
+		<description>Tealeaf</description>
+		<icon>PawnBadge/BVE/tea-leaf</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Tomatoes</defName>
+		<label>Tomatoes</label>
+		<description>Tomatoes</description>
+		<icon>PawnBadge/BVE/tomatoes</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Hammer</defName>
+		<label>Hammer</label>
+		<description>Hammer</description>
+		<icon>PawnBadge/BVE/hammer</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>BVE_Tools</defName>
+		<label>Tools</label>
+		<description>Tools</description>
+		<icon>PawnBadge/BVE/tools</icon>
+		<fromBaseMod>False</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+</Defs>

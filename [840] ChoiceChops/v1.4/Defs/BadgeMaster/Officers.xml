@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Ensign</defName>
+		<label>Ensign</label>
+		<description>(Fleet) Ensign</description>
+		<icon>PawnBadge/Officers/1_Ensign</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>SubLt</defName>
+		<label>Sub-Lieutenant</label>
+		<description>(Fleet) Sub-Lieutenant</description>
+		<icon>PawnBadge/Officers/2_SubLt</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Lieutenant</defName>
+		<label>Lieutenant</label>
+		<description>(Fleet) Lieutenant</description>
+		<icon>PawnBadge/Officers/3_Lieutenant</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>LtCommander</defName>
+		<label>Lieutenant Commander</label>
+		<description>(Fleet) Lieutenant Commander</description>
+		<icon>PawnBadge/Officers/4_LtCommander</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Commander</defName>
+		<label>Commander</label>
+		<description>(Fleet) Commander</description>
+		<icon>PawnBadge/Officers/5_Commander</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Captain</defName>
+		<label>Captain</label>
+		<description>(Fleet) Captain</description>
+		<icon>PawnBadge/Officers/6_Captain</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>GroupCaptain</defName>
+		<label>Group Captain</label>
+		<description>(Fleet) Group Captain</description>
+		<icon>PawnBadge/Officers/7_GroupCaptain</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>FleetCaptain</defName>
+		<label>Fleet Captain</label>
+		<description>(Fleet) Fleet Captain</description>
+		<icon>PawnBadge/Officers/8_FleetCaptain</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Commodore</defName>
+		<label>Commodore</label>
+		<description>(Fleet) Commodore</description>
+		<icon>PawnBadge/Officers/9_Commodore</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>RearAdmiral</defName>
+		<label>Rear Admiral</label>
+		<description>(Fleet) Rear Admiral</description>
+		<icon>PawnBadge/Officers/10_RearAdmiral</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>ViceAdmiral</defName>
+		<label>Vice Admiral</label>
+		<description>(Fleet) Vice Admiral</description>
+		<icon>PawnBadge/Officers/11_ViceAdmiral</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Admiral</defName>
+		<label>Admiral</label>
+		<description>(Fleet) Admiral</description>
+		<icon>PawnBadge/Officers/12_Admiral</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+	<RR_PawnBadge.BadgeDef>
+		<defName>FleetAdmiral</defName>
+		<label>Fleet Admiral</label>
+		<description>(Fleet) Fleet Admiral</description>
+		<icon>PawnBadge/Officers/13_FleetAdmiral</icon>
+	</RR_PawnBadge.BadgeDef>
+
+</Defs>
