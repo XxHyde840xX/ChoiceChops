@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<ThingDef ParentName="BaseGun">
+    <defName>840ArtemisPistol</defName>
+    <label>artemis pistol</label>
+    <description>A one-to-one copy of a well kept and beautiful gold-plated trophy pistol who once belonged to a well known sharp shooter on the Rim who's name was lost to time.</description>
+	<techLevel>Spacer</techLevel>
+	 <smeltable>true</smeltable>
+	 <relicChance>1</relicChance>
+    <graphicData>
+      <texPath>Things/Weapons/ArtemisPistol/ArtemisPistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.5</uiIconScale>
+    <soundInteract>Interact_840ArtemisPistol</soundInteract>
+	<comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+	<tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>BD_GoldenWeapon</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+    <statBases>
+	  <MarketValue>2000</MarketValue>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+	  <Beauty>3</Beauty>
+    </statBases>
+    <smeltProducts>
+      <Steel>20</Steel>
+	  <Gold>15</Gold>
+    </smeltProducts>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_840ArtemisPistol</defaultProjectile>
+        <warmupTime>0.2</warmupTime>
+        <range>25.9</range>
+        <soundCast>Shot_840ArtemisPistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>3</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+	  <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_840ArtemisPistol</defName>
+    <label>artemis pistol bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+  
+ </Defs>
+ 
+ <!-- YOU MIGHT NEED THE THOUGHTWORKERS. IF NOT, THEY'RE ALREADY IN PLAY FROM THE GOLD DEAGLE. -->

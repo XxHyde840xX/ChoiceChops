@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	
+	<SoundDef>
+    <defName>Shot_840ArtemisPistol</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Shot/Shot_840ArtemisPistol</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+			<min>47.2941</min>        
+			<max>50.2941</max>
+		</volumeRange>    
+		<pitchRange>
+			<min>0.6877</min>        
+			<max>0.7888</max>
+		</pitchRange>   
+		<sustainLoop>False</sustainLoop>
+		</li>
+	</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+    <defName>Interact_840ArtemisPistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Interact_840ArtemisPistol</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.936413</min>        
+          <max>1.042391</max>
+        </pitchRange>           
+        <sustainLoop>False</sustainLoop>
+     </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
+

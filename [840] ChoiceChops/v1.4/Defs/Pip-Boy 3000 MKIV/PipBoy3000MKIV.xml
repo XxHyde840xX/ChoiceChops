@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    
+    <!-- +++++ Pip-Boy +++++ -->
+	
+    <ThingDef ParentName="ApparelBase">
+    <defName>840_FalloutPipBoy</defName>
+    <label>Pip-Boy 3000 Mark IV</label>
+    <description>Modern marvels never cease to amaze! The latest in Vaul-Tec’s line of wrist computers, the Pip-Boy 3000 Mark IV, is a necessary tool for all you pioneers. Unrivaled computational power helps you organize your stuff and the built-in V.A.T.S. (Vault-Tec Assisted Targeting System) makes sure you never miss a shot!</description>
+    <graphicData>
+        <texPath>Things/Apparel/Utility/PhanPipBoy</texPath>    
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.75</drawSize>
+    </graphicData>
+    <uiIconScale>1.4</uiIconScale>
+        
+    <techLevel>Spacer</techLevel>
+    <tradeability>Sellable</tradeability>
+    <tradeNeverStack>true</tradeNeverStack>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <generateCommonality>0.1</generateCommonality> 
+    <statBases>
+        <Mass>1</Mass>
+        <WorkToMake>10000</WorkToMake>
+        <Flammability>0.2</Flammability>
+        <EquipDelay>4</EquipDelay>
+    </statBases>    
+        
+    <recipeMaker>
+        <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+        <researchPrerequisite>Fabrication</researchPrerequisite>
+        <recipeUsers>
+            <li>FabricationBench</li>
+        </recipeUsers>
+        <useIngredientsForColor>false</useIngredientsForColor>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <skillRequirements>
+            <Crafting>9</Crafting>
+        </skillRequirements>
+    </recipeMaker>
+    <costList>
+        <Plasteel>15</Plasteel>
+        <Uranium>15</Uranium>
+        <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+        
+    <equippedStatOffsets>
+        <AimingDelayFactor>0.1</AimingDelayFactor>
+        <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+        <CarryingCapacity>60</CarryingCapacity>
+    </equippedStatOffsets>
+        
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    
+    <apparel>
+<!--
+        <wornGraphicPath>Things/Apparel/Utility/PipBoy</wornGraphicPath>
+        <wornGraphicData>
+            <renderUtilityAsPack>true</renderUtilityAsPack>
+        </wornGraphicData>
+-->
+        <careIfWornByCorpse>false</careIfWornByCorpse>
+        <countsAsClothingForNudity>false</countsAsClothingForNudity>
+        <careIfDamaged>false</careIfDamaged>
+        <wearPerDay>0</wearPerDay>
+        <bodyPartGroups>
+            <li>Arms</li>
+        </bodyPartGroups>
+        <layers>
+            <li>Belt</li>
+        </layers>
+    </apparel>
+    </ThingDef>
+
+</Defs>
+
+
+
+
+
+
+
+
+
+
