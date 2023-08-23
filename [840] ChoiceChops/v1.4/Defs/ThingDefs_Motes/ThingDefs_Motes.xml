@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>840_AnimaObelisk_ThingDef_RunesGlow</defName>
+		<graphicData>
+			<texPath>Motes/AnimaObelisk_RunesGlow</texPath>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<fadeInTime>0.15</fadeInTime>
+			<solidTime>0.9</solidTime>
+			<fadeOutTime>1</fadeOutTime>
+		</mote>
+	</ThingDef>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>840_AnimaObelisk_ThingDef_SimpleGlow</defName>
+		<graphicData>
+			<shaderType>MoteGlow</shaderType>
+			<texPath>Motes/AnimaObelisk_SimpleGlow</texPath>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<fadeInTime>0.15</fadeInTime>
+			<solidTime>0.75</solidTime>
+			<fadeOutTime>1</fadeOutTime>
+		</mote>
+	</ThingDef>
+	
+	<ThingDef ParentName="MoteBase">
+		<defName>840_AnimaObelisk_ThingDef_EffectToPawn</defName>
+		<graphicData>
+			<shaderType>MoteGlow</shaderType>
+			<texPath>Motes/AnimaObelisk_PawnGlow</texPath>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<mote>
+			<fadeInTime>0.15</fadeInTime>
+			<solidTime>0.75</solidTime>
+			<fadeOutTime>1</fadeOutTime>
+		</mote>
+	</ThingDef>
+
+
+
+</Defs>

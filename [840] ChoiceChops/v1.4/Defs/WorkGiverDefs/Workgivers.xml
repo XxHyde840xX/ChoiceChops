@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<WorkGiverDef>
+		<defName>840_AnimaObelisk_WorkGiverDef_FillPawn</defName>
+		<label>get psyfocus</label>
+		<giverClass>PsyObelisk.AI.WorkGiver_PsyObelisk</giverClass>
+		<workType>BasicWorker</workType>
+		<priorityInType>1</priorityInType>
+		<fixedBillGiverDefs>
+			<li>840_AnimaObelisk_ThingDef_AnimaObelisk</li>
+		</fixedBillGiverDefs>
+		<verb>get psyfocus</verb>
+		<gerund>getting psyfocus on</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>

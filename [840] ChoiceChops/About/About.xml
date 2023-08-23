@@ -63,6 +63,12 @@
 		- What is XSTAT? A small hemostatic device for the treatment of gunshot and shrapnel wounds.
 		- The original mod can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2731817249.
 	
+	 - [Anima Obelisk - Standalone Retextured]
+		- Safekeep some juice for when you really need it with a gorgeous new Anima Obelisk!
+		- The Anima Obelisk allows any psycaster to meditate upon it, slowly accumulating psyfocus that can later be withdrawn by any other psycaster.
+		- Retextured with MrKociak's fine work and made standalone by yours truly. Incompatibe with 
+		- Original mods located at: https://steamcommunity.com/sharedfiles/filedetails/?id=2614248835 / https://steamcommunity.com/sharedfiles/filedetails/?id=2825920536.
+	
 	- [Stabilized Mechanites]
 
 	- [RimmuNation Replucked]
@@ -82,6 +88,7 @@
 		<li>840.Badge.Master</li>
 		<li>Rick.F76Responders</li>
 		<li>Fort.XSTATInjector</li>
+		<li>840.AnimaObelisk.RTXS</li>
 	</incompatibleWith>
 	<modDependencies>
 		<li>
@@ -113,10 +120,24 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2112663412</steamWorkshopUrl>
 			<downloadUrl>https://github.com/SaucyPigeon/PawnBadge-FanFork</downloadUrl>
 		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
 		<li>brrainz.harmony</li>
 		<li>SaucyPigeon.PawnBadge</li>
 		<li>SmashPhil.VehicleFramework</li>

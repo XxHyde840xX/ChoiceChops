@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	
+	<AnimaObelisk.AnimaObeliskMod>Anima Obelisk</AnimaObelisk.AnimaObeliskMod>
+	
+	<AnimaObelisk.Settings.PsyFocusMax>Psyfocus in obelisk (max): {0}</AnimaObelisk.Settings.PsyFocusMax>
+	
+	<AnimaObelisk.Settings.PsyFocusDecayRate>Psyfocus decay rate in obelisk: {0}% per day</AnimaObelisk.Settings.PsyFocusDecayRate>
+	
+	<AnimaObelisk.Settings.PsyFocusGetTime>Time to get psyfocus from the obelisk: {0} seconds</AnimaObelisk.Settings.PsyFocusGetTime>
+	
+	
+	
+	<AnimaObelisk.GUI.FocusLevel>Psyfocus level: {0} / {1}</AnimaObelisk.GUI.FocusLevel>
+	
+	<AnimaObelisk.GUI.GetFocusActive>Pawns will get focus: {0}</AnimaObelisk.GUI.GetFocusActive>
+	
+	<AnimaObelisk.GUI.GetFocusActiveSwitch_Label>Consumption mode</AnimaObelisk.GUI.GetFocusActiveSwitch_Label>
+	
+	<AnimaObelisk.GUI.GetFocusActiveSwitch_Desc>This function indicates whether the attached pawns will consume psifocus from the storage on their own.</AnimaObelisk.GUI.GetFocusActiveSwitch_Desc>
+	
+	<AnimaObelisk.GUI.MeditationActive>Pawns will fill the storage: {0}</AnimaObelisk.GUI.MeditationActive>
+	
+	<AnimaObelisk.GUI.MeditationActiveSwitch_Label>Generation mode</AnimaObelisk.GUI.MeditationActiveSwitch_Label>
+	
+	<AnimaObelisk.GUI.MeditationActiveSwitch_Desc>This function indicates whether the attached pawns will fill the storage when meditating near the storage.</AnimaObelisk.GUI.MeditationActiveSwitch_Desc>
+	
+	<AnimaObelisk.GUI.SetPsycastersToMeditation_Label>Set pawns to meditation</AnimaObelisk.GUI.SetPsycastersToMeditation_Label>
+	
+	<AnimaObelisk.GUI.SetPsycastersToMeditation_Desc>Set up pawns that will accumulate psyfocus in storage.</AnimaObelisk.GUI.SetPsycastersToMeditation_Desc>
+	
+	<AnimaObelisk.GUI.SetPsycastersToGetPsyfocus_Label>Set pawns to get psyfocus</AnimaObelisk.GUI.SetPsycastersToGetPsyfocus_Label>
+	
+	<AnimaObelisk.GUI.SetPsycastersToGetPsyfocus_Desc>Set up pawns than will get psyfocus from storage.</AnimaObelisk.GUI.SetPsycastersToGetPsyfocus_Desc>
+	
+	
+	
+	<AnimaObelisk.FloatMenuOption.CompletelyFillPawn>Fill target psyfocus</AnimaObelisk.FloatMenuOption.CompletelyFillPawn>
+	
+	<AnimaObelisk.FloatMenuOption.CompletelyFillPawnFailReasonEmpryStorage>(Storage empty)</AnimaObelisk.FloatMenuOption.CompletelyFillPawnFailReasonEmpryStorage>
+	
+	<AnimaObelisk.FloatMenuOption.CompletelyFillPawnFailReasonHasNotPsylink>(Has not psylink)</AnimaObelisk.FloatMenuOption.CompletelyFillPawnFailReasonHasNotPsylink>
+	
+	<AnimaObelisk.FloatMenuOption.CompletelyFillPawnFailReasonFullPawn>(Psyfocus more then target psyfocus)</AnimaObelisk.FloatMenuOption.CompletelyFillPawnFailReasonFullPawn>
+	
+	
+	
+	<AnimaObelisk.Messages.PawnHasNotPsylink>Pawn has not psylink.</AnimaObelisk.Messages.PawnHasNotPsylink>
+
+</LanguageData>

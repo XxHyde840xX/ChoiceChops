@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<JobDef>
+		<defName>840_AnimaObelisk_JobDef_GetPsyFocus</defName>
+		<driverClass>PsyObelisk.AI.JobDriwer_GetPsyFocus</driverClass>
+		<reportString>filling own psyfocus</reportString>
+		<joyKind>Meditative</joyKind>
+	</JobDef>
+
+</Defs>

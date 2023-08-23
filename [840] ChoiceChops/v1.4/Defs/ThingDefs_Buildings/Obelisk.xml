@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>840_AnimaObelisk_ThingDef_AnimaObelisk</defName>
+		<label>Anima Obelisk</label>
+		<description>A majestic structure of stone and gold that is capable of accumulating psyfocus. Only the pawns assigned to meditation will be able to fill the vault. Others will treat the building as a normal meditation object. Only designated pawns can independently receive psifocus from from the obelisk.</description>
+		<size>(3,3)</size>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Buildings/PsyObelisk/PsyObelisk</texPath>
+			<drawSize>(7,7)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
+			<shadowData>
+				<volume>(2.2, 1, 2.2)</volume>
+				<offset>(0, 0, -0.1)</offset>
+			</shadowData>
+		</graphicData>
+		<useHitPoints>True</useHitPoints>
+		<costStuffCount>400</costStuffCount>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<WorkToBuild>16000</WorkToBuild>
+			<MeditationFocusStrength>0.3</MeditationFocusStrength>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Beauty>25</Beauty>
+		</statBases>
+		<rotatable>false</rotatable>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<designationCategory>Misc</designationCategory>
+		<passability>Standable</passability>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<building>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_MeditationSpot</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_UsesMeditationFocus"/>
+			<li Class="PsyObelisk.Things.CompProperties_PsyObelisk"/>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Dignified</li>
+					<li>Natural</li>
+					<li>Artistic</li>
+					<li>Morbid</li>
+					<li>Minimal</li>
+					<li>Flame</li>
+				</focusTypes>
+			</li>
+			<li Class="CompProperties_AssignableToPawn">
+				<drawAssignmentOverlay>false</drawAssignmentOverlay>
+				<maxAssignedPawnsCount>10</maxAssignedPawnsCount>
+				<compClass>PsyObelisk.Things.CompAssignableToPawn_ObeliskGenerator</compClass>
+			</li>
+			<li Class="CompProperties_AssignableToPawn">
+				<drawAssignmentOverlay>false</drawAssignmentOverlay>
+				<maxAssignedPawnsCount>10</maxAssignedPawnsCount>
+				<compClass>PsyObelisk.Things.CompAssignableToPawn_ObeliskConsumer</compClass>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+	</ThingDef>
+
+</Defs>
