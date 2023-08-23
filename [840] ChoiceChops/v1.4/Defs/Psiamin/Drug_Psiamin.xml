@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>840_Psiamin</defName>
+    <label>psiamin</label>
+    <description>A basic, pill-form drug made from psychoid-leaves and neutroamine that dissolves under the tongue. Designed as a "pick-me-up" for psycasters. Minty, with an unfortunate chalky aftertaste.</description>
+    <graphicData>
+      <texPath>Things/Drugs/Psiamin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>360</WorkToMake>
+      <MarketValue>11</MarketValue>
+      <Mass>0.003</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Hard</drugCategory>
+      <baseIngestTicks>20</baseIngestTicks>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Take {0}</ingestCommandString>
+      <ingestReportString>Taking {0}.</ingestReportString>
+      <useEatingSpeedStat>true</useEatingSpeedStat>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_OffsetPsyfocus">
+          <offset>0.15</offset>
+        </li>
+      </outcomeDoers>
+      <tableDesired>false</tableDesired>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PsychiteRefining</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <soundWorking>Recipe_Drug</soundWorking>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>1</Neutroamine>
+      <PsychoidLeaves>2</PsychoidLeaves>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>850</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
