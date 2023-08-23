@@ -16,3 +16,110 @@
   </Operation>
 
 </Patch>
+
+<!-- DO I NEED TO ADD OR SWITCH TO THIS STUFF BELOW? AND WHAT IS WRONG UP ABOVE IF SO? -->
+
+<!--
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/ThingDef[defName = "SimpleResearchBench"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName = "SimpleResearchBench"]</xpath>
+      <value>
+        <comps>
+          <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+              <li>840_ENIAC</li>
+            </linkableFacilities>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName = "SimpleResearchBench"]/comps/li[@Class =
+        "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>840_ENIAC</li>
+      </value>
+    </match>
+  </Operation>
+  
+    <Operation Class="PatchOperationConditional">
+    <xpath>*/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName = "HiTechResearchBench"]</xpath>
+      <value>
+        <comps>
+          <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+              <li>840_ENIAC</li>
+            </linkableFacilities>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName = "HiTechResearchBench"]/comps/li[@Class =
+        "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>840_ENIAC</li>
+      </value>
+    </match>
+  </Operation>
+  
+-->
+  
+<!-- REFERENCE FROM AOBA's PATCH BELOW -->
+ 
+  <!-- 原版研究桌兼容ENIAC -->
+  
+<!--
+  
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "HiTechResearchBench"]/comps/li[@Class =
+          "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+        <value>
+          <li>FT_ENIAC</li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="HeavyTurrets"]/researchViewX</xpath>
+        <value>
+          <researchViewX>11.00</researchViewX>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="HeavyTurrets"]/researchViewY</xpath>
+        <value>
+          <researchViewY>3.45</researchViewY>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>*/ThingDef[defName = "SimpleResearchBench"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName = "SimpleResearchBench"]</xpath>
+      <value>
+        <comps>
+          <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+              <li>FT_ENIAC</li>
+            </linkableFacilities>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+      <xpath>*/ThingDef[defName = "SimpleResearchBench"]/comps/li[@Class =
+        "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+      <value>
+        <li>FT_ENIAC</li>
+      </value>
+    </match>
+  </Operation>
+  
+-->

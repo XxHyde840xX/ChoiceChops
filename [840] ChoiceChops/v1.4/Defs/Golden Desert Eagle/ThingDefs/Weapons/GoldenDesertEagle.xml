@@ -9,7 +9,7 @@
     <label>Golden Desert Eagle pistol</label>
     <description>The Golden Desert Eagle, chambered in .50 Action Express, is one the most powerful, heavy, and ostentatious pistols manufactured across the mid-worlds. Made mostly for show, and often found in the hands with a penchant for money and power, the weapon is incredibly powerful, if not the last word in accuracy.</description>
     <graphicData>
-      <texPath>Things/Weapons/GoldenDesertEagle</texPath>
+      <texPath>Things/Weapons/GDeagle/GoldenDesertEagle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.4</uiIconScale>
