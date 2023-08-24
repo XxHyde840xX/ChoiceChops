@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Vehicle base -->
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>bicycle_blueprint</defName>
+		<label>bicycle</label>
+		<description>A bicycle.</description>
+		<graphicData>
+			<texPath>Things/Vehicles/bicycle/bicycle</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>350</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+
+		<size>(1,1)</size>
+
+		<researchPrerequisites>
+			<li>Machining</li>
+		</researchPrerequisites>
+
+		<costList>
+			<Steel>80</Steel>
+		</costList>
+
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+
+		<thingToSpawn>bicycle</thingToSpawn>
+
+	</Vehicles.VehicleBuildDef>
+</Defs>

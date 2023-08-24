@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>	
+	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
+		<defName>bicycle</defName>
+		<label>bicycle</label>
+		<description>A bicycle.</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/bicycle/bicycle</texPath>
+			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<drawOffset>(0,0,0.25)</drawOffset>
+			<shaderType>CutoutComplexPattern</shaderType>
+		</graphicData>
+		
+		<fillPercent>0.2</fillPercent>
+		
+		<nameable>false</nameable>
+		<buildDef>bicycle_blueprint</buildDef>
+		
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		
+		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
+		<vehicleCategory>Transport</vehicleCategory>
+		<techLevel>Industrial</techLevel>
+		<vehicleType>Land</vehicleType>
+				
+		<statBases>
+			<ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+			<Flammability>0.5</Flammability>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		
+		<vehicleStats>
+			<Mass>5</Mass>
+			<MoveSpeed>6</MoveSpeed>
+			<CargoCapacity>10</CargoCapacity>
+			<RepairRate>1</RepairRate>
+		</vehicleStats>
+		
+		<race>
+			<baseBodySize>1</baseBodySize>
+		</race>
+		
+		<properties>
+			<diagonalRotation>false</diagonalRotation>
+			<worldSpeedMultiplier>1.2</worldSpeedMultiplier>
+			<winterSpeedMultiplier>3.25</winterSpeedMultiplier>
+			<manhunterTargetsVehicle>true</manhunterTargetsVehicle>
+			<offRoadMultiplier>0.8</offRoadMultiplier>
+			
+			<roles>
+				<li>
+					<key>rider</key>
+					<label>Rider</label>
+					<slots>1</slots>
+					<slotsToOperate>1</slotsToOperate>
+					<exposed>true</exposed>
+					
+					<hitbox>
+						<side>Body</side>
+					</hitbox>
+					
+					<handlingTypes>
+						<li>Movement</li>
+					</handlingTypes>
+				
+					<pawnRenderer>
+						<layer>1</layer>
+						<layerNorth>1</layerNorth>
+						<layerSouth>-1</layerSouth>
+						<angleNorth>0</angleNorth>
+						<angleEast>0</angleEast>
+						<angleNorthEast>0</angleNorthEast>
+						<angleSouthEast>0</angleSouthEast>
+						<drawOffsetNorth>(0,0.25,0.6)</drawOffsetNorth>
+						<drawOffsetSouth>(0,0.25,0.6)</drawOffsetSouth>
+						<drawOffsetEast>(0,9,0.5)</drawOffsetEast>
+					</pawnRenderer>
+				</li>
+			</roles>
+		</properties>
+		
+		<components>
+			<li>
+				<key>FrontWheel</key>
+				<label>Front Wheel</label>
+				<health>20</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackWheel</key>
+				<label>Back Wheel</label>
+				<health>20</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+		</components>
+
+	</Vehicles.VehicleDef>
+</Defs>
