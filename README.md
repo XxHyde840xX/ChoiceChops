@@ -43,10 +43,11 @@ An exhaustive list is as follows;
 			- If you ever see this Bino#2699, hit me up and I'll give you my copy of this mod.
 			- The original mod can be found at: https://steamcommunity.com/sharedfiles/filedetails/?id=3024596985.
 			
-	- [Psiamin]
+	- [Psiamin - TicTacs for Psycasters]
 			- Got bored, noticed the description was vauge, and included it to purge from my inactive mods.
 			- 1 neutroamine, 2 psychoid leaves, 360 work cost to make. Psyfocus offset is at 0.15 and may need adjustment.
 			- The original mod can be found at: https://steamcommunity.com/sharedfiles/filedetails/?id=2585560901.
+			- Incompatible with the orignal Psiamin mod. Deal with it.
 			
 	- [Badge Master]
 			- I repackaged my Badge Master mod up for use. Unfortunately this adds another dependency. Deal with it.
@@ -55,22 +56,45 @@ An exhaustive list is as follows;
 			- REQUIRES PAWN BADGE FAN FORK! Also now incompatible with 14 mods I can't be arsed to list!
 			
 	- [Responders Mod]
-		- I love the Fallout series, and thought the armor was awesome. Unfortunately, for 3 pieces of gear it was a massive file.
-		- Textures have been downscaled from 2134x2134 to a more reasonable 1067x1067.
-		- I will downscale the textures to 512x512 if the file size is still large.
-		- Completely incompatible with the original mod, found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2935563029,
+			- I love the Fallout series, and thought the armor was awesome. Unfortunately, for 3 pieces of gear it was a massive file.
+			- Textures have been downscaled from 2134x2134 to a more reasonable 1067x1067.
+			- I will downscale the textures to 512x512 if the file size is still large.
+			- Completely incompatible with the original mod, found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2935563029,
 		
-	- [XSTAT]
-		- Yeeted another mod out of my list thanks to this inclusion. Incompatible with the original mod.
-		- Textures were 7112x7112 initially and have been downscaled to a respectable 256x256.
-		- What is XSTAT? A small hemostatic device for the treatment of gunshot and shrapnel wounds.
-		- The original mod can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2731817249.
+	- [XSTAT Hemostatic Device]
+			- Yeeted another mod out of my list thanks to this inclusion. Incompatible with the original mod.
+			- Textures were 7112x7112 initially and have been downscaled to a respectable 256x256.
+			- What is XSTAT? A small hemostatic device for the treatment of gunshot and shrapnel wounds.
+			- Incompatible with the original mod found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2731817249.
 	
-	 - [Anima Obelisk - Standalone Retextured]
-		- Safekeep some juice for when you really need it with a gorgeous new Anima Obelisk!
-		- The Anima Obelisk allows any psycaster to meditate upon it, slowly accumulating psyfocus that can later be withdrawn by any other psycaster.
-		- Retextured with MrKociak's fine work and made standalone by yours truly.
-		- Original mods located at: https://steamcommunity.com/sharedfiles/filedetails/?id=2614248835 / https://steamcommunity.com/sharedfiles/filedetails/?id=2825920536.
+	- [Anima Obelisk - Standalone Retextured]
+			- Safekeep some juice for when you really need it with a gorgeous new Anima Obelisk!
+			- The Anima Obelisk allows any psycaster to meditate upon it, slowly accumulating psyfocus that can later be withdrawn by any other psycaster.
+			- Retextured with MrKociak's fine work and made standalone by yours truly. Incompatible with my standalone version.
+			- Original mods located at: https://steamcommunity.com/sharedfiles/filedetails/?id=2614248835 / https://steamcommunity.com/sharedfiles/filedetails/?id=2825920536.
+	
+	- [sd's Chicken Nest Continued]
+			- Want to build your chicken coop in style? Say less fam, I got you!
+			- Adds a nest for small animals to the game. Made out of hay, same stats as the animal sleeping box.
+			- No research to build. Switch between light and dark textures by rotating the item!
+			- Thanks Mlie! Sorry I sniped this for my hackjob! WE ARE INCOMPATIBLE!
+			- Original mod found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2019031353.
+		
+	- [Bicycle!]
+			- The first bicycle mod for vehicle framework, preserved so it may never be forgotten.
+			- I will update this if needed. Incompatible with the original mod located below.
+			- https://steamcommunity.com/sharedfiles/filedetails/?id=2019031353.
+	
+	- [Jukebox]
+			- Okay, okay, I PROMISE this is the last one I'm including before I start going back to proper mod-butchery.
+			- How To Add Custom Song(s): What SHOULD Be An Easy Set Of Instructions.
+			- 1. Go to Steam Workshop content folder. If you've installed it in a different drive, change the drive to match it.
+			- Example: "C:\Program Files (x86)\SteamLibrary\steamapps\workshop\content\294100\[new ID]"
+			- 2. Open \Sounds\Songs Folder and remove all sample songs. (Or not!)
+			- 3. Put new songs here. Audio file support is .wav/.mp3/.ogg format.
+			- WARNING: Don't put songs in while the game is running. Incompatible with anything containing this jukebox.
+			- Source 1: NukaFrog's Gloomy Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=1558635181.
+			- Source 2: Zaljerem's Jukebox: https://steamcommunity.com/sharedfiles/filedetails/?id=2775601991.
 	
 	- [Stabilized Mechanites]
 
