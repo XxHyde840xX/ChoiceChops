@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>AOC_Trampoline</defName>
+    <label>Trampoline</label>
+    <description>One of the most fun, and often dangerous pastimes for both children and adults! This particular model has been recalled several times due to height-related injuries resulting from its incredible elastic properties.</description>
+    <thingClass>AOCDevil.Building_AOCJoyRide_Trampoline</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Joy/Trampoline/AOC_Trampoline</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3, 3)</drawSize>
+      <shadowData>
+        <volume>(0.5, 0.5, 0.7)</volume>
+      </shadowData>
+    </graphicData>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.65</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>3200</WorkToBuild>
+      <Mass>35</Mass>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(3,3)</size>
+    <designationCategory>Joy</designationCategory>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <building>
+      <joyKind>Gaming_Dexterity</joyKind>
+      <watchBuildingStandDistanceRange>5~5</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>3</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>true</watchBuildingInSameRoom>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <ai_chillDestination>false</ai_chillDestination>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Cloth>100</Cloth>
+    </costList>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+   <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <modExtensions>
+      <li Class="AOCDevil.TrampolinePathData">
+        <trampolinePathData>Things/Building/Joy/Trampoline/AOC_Trampoline_Layer0</trampolinePathData>
+        <soundDef>TrampolineBounce</soundDef>
+        <moonJumpChance>0.5</moonJumpChance>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <JobDef>
+    <defName>AOC_JoyRide</defName>
+    <driverClass>AOCDevil.JobDriver_AOCJoyRide</driverClass>
+    <reportString>Riding.</reportString>
+    <joyKind>Gaming_Dexterity</joyKind>
+  </JobDef>
+
+  <JoyGiverDef>
+    <defName>AOC_JoyRide_Trampoline</defName>
+    <giverClass>AOCDevil.JoyGiver_AOCJoyRide</giverClass>
+    <baseChance>4</baseChance>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <jobDef>AOC_JoyRide</jobDef>
+    <thingDefs>
+      <li>AOC_Trampoline</li>
+    </thingDefs>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>-->
+
+</Defs>

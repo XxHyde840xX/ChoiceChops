@@ -94,6 +94,20 @@
 			- Source 1: NukaFrog's Gloomy Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=1558635181.
 			- Source 2: Zaljerem's Jukebox: https://steamcommunity.com/sharedfiles/filedetails/?id=2775601991.
 	
+	- [AOC's Trampoline and Kotatsu]
+			- Bouncin', bouncin', bouncin'
+			- Are we?
+			- Bouncin', bouncin', uh
+			- Are we?
+			- Bouncin', bouncin', bouncin'
+			- Are we?
+			- Bouncin'
+			- Sorry, I was listening to Prof while I was chopping this one up.
+			- Check Prof's music out here: https://www.youtube.com/channel/UC7M1cNEc2Qwf8cCP_GnQb2Q. 
+			- The .dll scared the bejesus out of me while I was doing this so the defs are unchanged.
+			- As a result it's incompatible with the AOC "The Cleanup Devil" mod it was spun out from.
+			- Original mod found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2469449551.
+	
 	- [Stabilized Mechanites]
 
 	- [RimmuNation Replucked]
@@ -119,6 +133,7 @@
 		<li>zal.jukebox</li>
 		<li>Solaris.FurnitureBase</li>
 		<li>Gloomy.Furniture.Fix</li>
+		<li>Millap.AOC</li>
 	</incompatibleWith>
 	<modDependencies>
 		<li>

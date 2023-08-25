@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>AOC_Kotatsu</defName>
+    <label>Kotatsu</label>
+    <description>A kotatsu is a low, wooden table frame covered by a futon, or heavy blanket, upon which a table top sits. Underneath is an electric heat-source, built right into the table. Nice and cozy for studying or eating.</description>
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <castEdgeShadows>true</castEdgeShadows>
+    <graphicData>
+      <texPath>Things/Building/Furniture/AOC_Kotatsu</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>      <!-- 개 좆같은 마스킹 드디어 찾았다 _ Translation: I don't know what to do! _ I guess potential issue? -->
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <canOverlapZones>false</canOverlapZones>
+    <defaultPlacingRot>North</defaultPlacingRot>
+
+    <costList>
+      <Steel>10</Steel>
+	  <Wood>25</Wood>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+
+    <costStuffCount>50</costStuffCount>
+
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <surfaceType>Eat</surfaceType>
+    <rotatable>false</rotatable>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <comps>
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>175</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_TempControl">
+        <energyPerSecond>21</energyPerSecond>
+      </li>
+    </comps>
+    <designationHotKey>Misc2</designationHotKey>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  
+ </ThingDef>
+
+</Defs>
