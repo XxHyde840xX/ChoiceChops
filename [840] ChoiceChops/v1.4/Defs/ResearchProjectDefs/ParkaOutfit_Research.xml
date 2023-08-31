@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ResearchProjectDef>
+    <defName>AdvancedParka</defName>
+    <label>Advanced Parka</label>
+    <description>Allow production of advanced parkas.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <tab>Parka</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+</Defs>

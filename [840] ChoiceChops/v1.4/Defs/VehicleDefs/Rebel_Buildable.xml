@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>rebel_Blueprint</defName>
+		<label>Rebel</label>
+		<description>From the all-Rimerican line of muscle cars comes the middle generation Rebel. Too contemporary to be a classic, too old-school to be cutting edge, this is the kind of car you forget all about until it punches you square in the junk. Now pony up. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1\n&lt;color=#bb8f04&gt;Power:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>VVE_Vehicles</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/unruly/unruly</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,5)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>6700</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		
+		<size>(2,4)</size>
+		
+		<researchPrerequisites>
+			<li>VVE_BasicVehicles</li>
+		</researchPrerequisites>
+		
+		<costList>
+			<VVE_EngineBlock>1</VVE_EngineBlock>
+			<VVE_CarAlternator>1</VVE_CarAlternator>
+			<VVE_CarExhaust>2</VVE_CarExhaust>
+			<VVE_CarSuspension>4</VVE_CarSuspension>
+			<VVE_CarWheel>4</VVE_CarWheel>
+			<Steel>325</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>rebel</thingToSpawn>
+		
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

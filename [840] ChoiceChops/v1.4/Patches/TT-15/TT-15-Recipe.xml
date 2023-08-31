@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="LargeMechGestator"]/recipes</xpath>
+		<order>Prepend</order>
+		<value>
+			<li>TW_Mech_TT_XV_Recipe</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/RecipeDef[defName="ResurrectHeavyMech"]/fixedIngredientFilter/thingDefs/li</xpath>
+		<value>
+			<li>Corpse_TW_Mech_TT_XV</li>
+		</value>
+	</Operation>
+</Patch>

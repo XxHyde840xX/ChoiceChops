@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>	
+	<Vehicles.VehicleDef ParentName="VehiclePawn_Mechanical">
+		<defName>rebel</defName>
+		<label>Rebel</label>
+		<description>From the all-Rimerican line of muscle cars comes the middle generation Rebel. Too contemporary to be a classic, too old-school to be cutting edge, this is the kind of car you forget all about until it punches you square in the junk. Now pony up. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1\n&lt;color=#bb8f04&gt;Power:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/unruly/unruly</texPath>
+			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(3,5)</drawSize>
+			<color>(55, 74, 146)</color>
+			<colorTwo>(30, 30, 30)</colorTwo>
+			<colorThree>(30, 30, 30)</colorThree>
+		</graphicData>
+		
+		<fillPercent>0.8</fillPercent>
+		
+		<buildDef>rebel_Blueprint</buildDef>
+		
+		<size>(2,4)</size>
+		
+		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
+		<vehicleCategory>Transport</vehicleCategory>
+		<techLevel>Industrial</techLevel>
+		<vehicleType>Land</vehicleType>
+		
+		<statBases>
+			<ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.48</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Flammability>0.5</Flammability>
+			<MarketValue>1650</MarketValue>
+		</statBases>
+		
+		<vehicleStats>
+			<Mass>230</Mass>
+			<MoveSpeed>15.8</MoveSpeed>
+			<CargoCapacity>375</CargoCapacity>
+			<RepairRate>0.67</RepairRate>
+			<AccelerationRate>0.103</AccelerationRate>
+		</vehicleStats>
+		
+		<soundSustainersOnEvent>
+			<li>
+				<key>(IgnitionOn, IgnitionOff)</key>
+				<value>VVE_VehicleEngineMuscleCar</value>
+			</li>
+		</soundSustainersOnEvent>
+		
+		<race>
+			<baseBodySize>3.25</baseBodySize>
+		</race>
+		
+		<properties>
+			<winterSpeedMultiplier>3.25</winterSpeedMultiplier>
+			<offRoadMultiplier>1.2</offRoadMultiplier>
+			
+			<customRoadCosts AssignDefaults = "0.25"/>
+			
+			<roles>
+				<li>
+					<key>driver</key>
+					<label>Driver</label>
+					<slots>1</slots>
+					<slotsToOperate>1</slotsToOperate>
+					<handlingTypes>
+						<li>Movement</li>
+					</handlingTypes>
+					<hitbox>
+						<cells>
+							<li>(0, 1)</li>
+						</cells>
+					</hitbox>
+				</li>
+				<li>
+					<key>passenger</key>
+					<label>Passenger</label>
+					<slots>1</slots>
+					<hitbox>
+						<cells>
+							<li>(1, 1)</li>
+						</cells>
+					</hitbox>
+				</li>
+			</roles>
+		</properties>
+		
+		<components>
+			<li>
+				<key>Engine</key>
+				<label>Engine</label>
+				<health>70</health>
+				<priorityStatEfficiency>true</priorityStatEfficiency>
+				<depth>External</depth>
+				
+				<reactors>
+					<li Class = "Vehicles.Reactor_Explosive">
+						<indicator>VF_Explosive</indicator>
+						<chance>0.25</chance>
+						<radius>3</radius>
+						<damageDef>Bomb</damageDef>
+					</li>
+				</reactors>
+				
+				<hitbox>
+					<side>Front</side>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontLeftWheel</key>
+				<label>Front Left Wheel</label>
+				<health>30</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(0, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontRightWheel</key>
+				<label>Front Right Wheel</label>
+				<health>30</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(1, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackLeftWheel</key>
+				<label>Back Left Wheel</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(0, -1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackRightWheel</key>
+				<label>Back Right Wheel</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(1, -1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontLeftSuspension</key>
+				<label>Front Left Suspension</label>
+				<health>25</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(0, 1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontRightSuspension</key>
+				<label>Front Right Suspension</label>
+				<health>25</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(1, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackLeftSuspension</key>
+				<label>Back Left Suspension</label>
+				<health>25</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(0, -1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackRightSuspension</key>
+				<label>Back Right Suspension</label>
+				<health>25</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(1, -1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>Gearbox</key>
+				<label>Gearbox</label>
+				<health>55</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<cells>
+						<li>(0, 1)</li>
+						<li>(1, 1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>LeftSidePanel</key>
+				<label>Left Side Panel</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Left</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>RightSidePanel</key>
+				<label>Right Side Panel</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Right</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>Chemtank</key>
+				<label>Chemtank</label>
+				<health>40</health>
+				<depth>Internal</depth>
+				
+				<reactors>
+					<li Class = "Vehicles.Reactor_FuelLeak"/>
+				</reactors>
+				
+				<hitbox>
+					<cells>
+						<li>(0, -1)</li>
+						<li>(1, -1)</li>
+					</cells>
+				</hitbox>
+			</li>
+			<li>
+				<key>FrontBumper</key>
+				<label>Front Bumper</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Front</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>RearBumper</key>
+				<label>Rear Bumper</label>
+				<health>15</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Back</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>Upholstery</key>
+				<label>Upholstery</label>
+				<health>30</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>Dashboard</key>
+				<label>Dashboard</label>
+				<health>40</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>SteeringWheel</key>
+				<label>Steering Wheel</label>
+				<health>20</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>Alternator</key>
+				<label>Alternator</label>
+				<health>20</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>Hood</key>
+				<label>Hood</label>
+				<health>50</health>
+				<depth>External</depth>
+			</li>
+			<li>
+				<key>Roof</key>
+				<label>Roof</label>
+				<health>45</health>
+				<depth>External</depth>
+			</li>
+		</components>
+
+		<comps>
+			<li Class="Vehicles.CompProperties_FueledTravel">
+				<fuelType>Chemfuel</fuelType>
+				<fuelConsumptionRate>25.5</fuelConsumptionRate>
+				<fuelCapacity>100</fuelCapacity>
+			</li>
+		</comps>
+	</Vehicles.VehicleDef>
+</Defs>

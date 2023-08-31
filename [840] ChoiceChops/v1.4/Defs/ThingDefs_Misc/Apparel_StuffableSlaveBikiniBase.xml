@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Item Base -->
+	<ThingDef Name="StuffableSlaveBikiniApparelBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>4</Beauty>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li><compClass>CompColorable</compClass></li>
+			<li><compClass>CompQuality</compClass></li>
+		</comps>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<!-- Crafting Recipe -->
+	<ThingDef Name="StuffableSlaveBikiniCraftingBase" ParentName="StuffableSlaveBikiniApparelBase" Abstract="True">
+		<recipeMaker>
+			<researchPrerequisite>NobleApparel</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>HandTailoringBench</li>
+				<li>ElectricTailoringBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+</Defs>

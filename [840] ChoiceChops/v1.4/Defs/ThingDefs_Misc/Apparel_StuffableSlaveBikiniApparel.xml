@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Worn Item -->
+	<ThingDef ParentName="StuffableSlaveBikiniCraftingBase">
+		<defName>Apparel_StuffableSlaveBikini</defName>
+		<label>Slave Bikini</label>
+		<description>A bikini-style costume consisting of a gold brassiere fastened over the neck and behind the back with string, a gold thong g-string panty and flowing veils attached to the front and back of the panty. Especially popular amongst Jabba's slave girls on Tatooine.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/StuffableSlaveBikini/StuffableSlaveBikini</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costList>
+			<Gold>5</Gold>
+		</costList>
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tradeability>Sellable</tradeability>
+		<generateCommonality>0.05</generateCommonality>
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>15000</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.1</SocialImpact>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.15</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/StuffableSlaveBikini/StuffableSlaveBikini</wornGraphicPath>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Outlander</li>
+				<li>Spacer</li>
+				<li>Royal</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Slave</li>
+			</defaultOutfitTags>
+			<!--tradeTags-->
+				<!--li>ExoticMisc</li-->
+			<!--/tradeTags-->
+			<gender>Female</gender>
+		</apparel>
+	</ThingDef>
+</Defs>

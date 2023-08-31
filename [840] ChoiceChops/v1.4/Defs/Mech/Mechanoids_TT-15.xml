@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- TT-15 -->
+  <ThingDef ParentName="LancerMechanoidWalker">
+    <defName>TW_Mech_TT_XV</defName>
+    <label>TT-15</label>
+    <description>TT-15 "Rat-Exterminator."
+	
+	The mobile mouse-catching mechanoid sold by Tiandun Heavy Industries is one of the most advanced pieces of equipment in the field of artificial intelligence.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue><!-- 市场价值 -->
+      <MoveSpeed>20</MoveSpeed><!-- 移速 -->
+      <EnergyShieldRechargeRate>0.5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.5</EnergyShieldEnergyMax>
+      <BandwidthCost>3</BandwidthCost>
+      <ControlTakingTime>18</ControlTakingTime>
+    </statBases>
+    <race>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Legionary_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Legionary_Death</soundDeath>
+          <soundCall>Pawn_Mech_Legionary_Call</soundCall>
+        </li>
+		  <li>
+			  <def>MechanoidFullyFormed</def>
+			  <minAge>0</minAge>
+			  <soundWounded>Pawn_Mech_Legionary_Wounded</soundWounded>
+			  <soundDeath>Pawn_Mech_Legionary_Death</soundDeath>
+			  <soundCall>Pawn_Mech_Legionary_Call</soundCall>
+		  </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="CompProperties_ProjectileInterceptor">
+        <radius>2</radius>
+        <interceptGroundProjectiles>true</interceptGroundProjectiles>
+        <color>(0.4, 0.4, 0.4)</color>
+        <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
+        <activeSound>BulletShield_Ambience</activeSound>
+        <hitPoints>5000</hitPoints>
+        <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
+        <chargeDurationTicks>5400</chargeDurationTicks>
+        <drawWithNoSelection>True</drawWithNoSelection>
+        <disarmedByEmpForTicks>1500</disarmedByEmpForTicks>
+        <gizmoTipKey>ProjectileInterceptorTip</gizmoTipKey>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>TW_Mech_TT_XV</defName>
+    <label>TT-15</label>
+    <race>TW_Mech_TT_XV</race><!-- 种族 -->
+    <combatPower>150</combatPower><!-- 战斗力点数 -->
+    <allowInMechClusters>false</allowInMechClusters><!-- 允许机械集群中出现 -->
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Mechanoid/TW_Mech_TT_XV</texPath>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+      </li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Mechanoid/TW_Mech_TT_XV</texPath>
+				<drawSize>1.5</drawSize>
+			</bodyGraphicData>
+		</li>
+    </lifeStages>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>TT_XV</li>
+    </weaponTags>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney>
+    <controlGroupPortraitZoom>1.2</controlGroupPortraitZoom>
+  </PawnKindDef>
+
+</Defs>

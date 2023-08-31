@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>roamer_Blueprint</defName>
+		<label>Mountain Roamer</label>
+		<description>No matter how strong you build your walls, there may come a day when they fall. When they do, the Mountain Roamer is the obvious choice to bug out in. Featuring loads of room for passengers and cargo, this rugged and powerful 6x6 will get you out of the fray in a hurry. And if all's well on the homefront? Use it for long-distance business and trade, or find somewhere scenic to take a nice camping trip. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x5\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>VVE_Vehicles</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/roamer/roamer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,8)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>23800</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		
+		<size>(3,7)</size>
+		
+		<researchPrerequisites>
+			<li>VVE_ComplexVehicles</li>
+		</researchPrerequisites>
+		
+		<costList>
+			<VVE_EngineBlock>2</VVE_EngineBlock>
+			<VVE_CarAlternator>4</VVE_CarAlternator>
+			<VVE_CarExhaust>4</VVE_CarExhaust>
+			<VVE_CarSuspension>16</VVE_CarSuspension>
+			<VVE_CarWheel>10</VVE_CarWheel>
+			<Steel>625</Steel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>roamer</thingToSpawn>
+		
+		<constructionSkillPrerequisite>11</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

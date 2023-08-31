@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>	
+	<Vehicles.VehicleDef ParentName="VehiclePawn_Mechanical">
+		<defName>roamer</defName>
+		<label>Mountain Roamer</label>
+		<description>No matter how strong you build your walls, there may come a day when they fall. When they do, the Mountain Roamer is the obvious choice to bug out in. Featuring loads of room for passengers and cargo, this rugged and powerful 6x6 will get you out of the fray in a hurry. And if all's well on the homefront? Use it for long-distance business and trade, or find somewhere scenic to take a nice camping trip. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x5\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/roamer/roamer</texPath>
+			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(4,8)</drawSize>
+			<color>(160, 160, 160)</color>
+			<colorTwo>(126, 126, 126)</colorTwo>
+			<colorThree>(196, 200, 202)</colorThree>
+		</graphicData>
+		
+		<fillPercent>0.8</fillPercent>
+		
+		<buildDef>roamer_Blueprint</buildDef>
+		
+		<size>(3,7)</size>
+		
+		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
+		<vehicleCategory>Transport</vehicleCategory>
+		<techLevel>Industrial</techLevel>
+		<vehicleType>Land</vehicleType>
+		
+		<statBases>
+			<ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.54</ArmorRating_Sharp>
+			<Flammability>0.5</Flammability>
+			<MarketValue>1615</MarketValue>
+		</statBases>
+		
+		<vehicleStats>
+			<Mass>725</Mass>
+			<MoveSpeed>11.3</MoveSpeed>
+			<CargoCapacity>1275</CargoCapacity>
+			<RepairRate>0.9</RepairRate>
+			<AccelerationRate>0.25</AccelerationRate>
+		</vehicleStats>
+		
+		<soundSustainersOnEvent>
+			<li>
+				<key>(IgnitionOn, IgnitionOff)</key>
+				<value>VVE_VehicleEngineCar</value>
+			</li>
+		</soundSustainersOnEvent>
+		
+		<race>
+			<baseBodySize>3.5</baseBodySize>
+		</race>
+		
+		<properties>
+			<winterSpeedMultiplier>3.25</winterSpeedMultiplier>
+			
+			<customRoadCosts AssignDefaults = "0.25"/>
+			
+			<roles>
+				<li>
+					<key>driver</key>
+					<label>Driver</label>
+					<slots>1</slots>
+					<slotsToOperate>1</slotsToOperate>
+					
+					<handlingTypes>
+						<li>Movement</li>
+					</handlingTypes>
+					
+					<hitbox>
+						<side>Front</side>
+					</hitbox>
+				</li>
+				<li>
+					<key>passenger_shotgun</key>
+					<label>Shotgun</label>
+					<slots>1</slots>
+					
+					<hitbox>
+						<side>Front</side>
+					</hitbox>
+				</li>
+				<li>
+					<key>passenger_rear</key>
+					<label>Rear Passenger</label>
+					<slots>4</slots>
+					
+					<hitbox>
+						<cells>
+							<li>(0, 1)</li>
+							<li>(1, 1)</li>
+							<li>(0, 0)</li>
+							<li>(1, 0)</li>
+						</cells>
+					</hitbox>
+				</li>
+			</roles>
+		</properties>
+		
+		<components>
+			<li>
+				<key>Engine</key>
+				<label>Engine</label>
+				<health>90</health>
+				<priorityStatEfficiency>true</priorityStatEfficiency>
+				<depth>External</depth>
+				
+				<reactors>
+					<li Class = "Vehicles.Reactor_Explosive">
+						<indicator>VF_Explosive</indicator>
+						<chance>0.25</chance>
+						<radius>3</radius>
+						<damageDef>Bomb</damageDef>
+					</li>
+					<li Class = "Vehicles.Reactor_FuelLeak"/>
+				</reactors>
+				
+				<hitbox>
+					<side>Back</side>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontLeftWheel</key>
+				<label>Front Left Wheel</label>
+				<health>65</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(0, 2)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontRightWheel</key>
+				<label>Front Right Wheel</label>
+				<health>65</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(1, 2)</li>
+					</cells>
+				</hitbox>
+			</li>
+			<li>
+				<key>BackLeftWheel</key>
+				<label>Rear axle Front Left Wheel</label>
+				<health>120</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(0, -1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>BackRightWheel</key>
+				<label>Rear axle Front Right Wheel</label>
+				<health>120</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(1, -1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>RearaxleFrontRightWheel</key>
+				<label>Rear axle Back Right Wheel</label>
+				<health>120</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(1, -1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>RearaxleLeftWheel</key>
+				<label>Rear axle Back Left Wheel</label>
+				<health>120</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+				</armor>
+				
+				<tags>
+					<li>Wheel</li>
+				</tags>
+				
+				<hitbox>
+					<fallthrough>false</fallthrough>
+					<cells>
+						<li>(0, -1)</li>
+					</cells>
+				</hitbox>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontLeftSuspension</key>
+				<label>Front Left Suspension</label>
+				<health>95</health>
+				<depth>Internal</depth>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+				
+				<hitbox>
+					<cells>
+						<li>(0, 2)</li>
+					</cells>
+				</hitbox>
+			</li>
+			<li>
+				<key>FrontRightSuspension</key>
+				<label>Front Right Suspension</label>
+				<health>95</health>
+				<depth>Internal</depth>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+				
+				<hitbox>
+					<cells>
+						<li>(1, 2)</li>
+					</cells>
+				</hitbox>
+			</li>
+			<li>
+				<key>Gearbox</key>
+				<label>Gearbox</label>
+				<health>85</health>
+				<depth>Internal</depth>
+				
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+				
+				<hitbox>
+					<side>Front</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>LeftSidePanel</key>
+				<label>Left Side Panel</label>
+				<health>105</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+				</armor>
+				
+				<hitbox>
+					<side>Left</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>RightSidePanel</key>
+				<label>Right Side Panel</label>
+				<health>105</health>
+				<depth>External</depth>
+				
+				<armor>
+					<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+				</armor>
+				
+				<hitbox>
+					<side>Right</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>Chemtank</key>
+				<label>Chemtank</label>
+				<health>80</health>
+				<depth>Internal</depth>
+				
+				<hitbox>
+					<side>Back</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>FrontBumper</key>
+				<label>Front Bumper</label>
+				<health>125</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Front</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>RearBumper</key>
+				<label>Rear Bumper</label>
+				<health>35</health>
+				<depth>External</depth>
+				
+				<hitbox>
+					<side>Back</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>Rear compartment</key>
+				<label>Upholstery</label>
+				<health>115</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>Upholstery</key>
+				<label>Upholstery</label>
+				<health>35</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>Dashboard</key>
+				<label>Dashboard</label>
+				<health>50</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>SteeringWheel</key>
+				<label>Steering Wheel</label>
+				<health>35</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>Alternator</key>
+				<label>Alternator</label>
+				<health>55</health>
+				<depth>Internal</depth>
+			</li>
+			<li>
+				<key>Hood</key>
+				<label>Hood</label>
+				<health>75</health>
+				<depth>External</depth>
+			</li>
+			<li>
+				<key>Roof</key>
+				<label>Roof</label>
+				<health>40</health>
+				<depth>External</depth>
+			</li>
+		</components>
+
+		<comps>
+			<li Class="Vehicles.CompProperties_FueledTravel">
+				<fuelType>Chemfuel</fuelType>
+				<fuelConsumptionRate>25</fuelConsumptionRate>
+				<fuelCapacity>350</fuelCapacity>
+			</li>
+		</comps>
+	</Vehicles.VehicleDef>
+</Defs>

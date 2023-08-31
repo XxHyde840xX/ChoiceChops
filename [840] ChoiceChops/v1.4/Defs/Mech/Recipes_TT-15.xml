@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="MediumMechanoidRecipe">
+    <defName>TW_Mech_TT_XV_Recipe</defName>
+    <label>Gestate TT-15</label>
+    <description>Gestate one TT-15 "Rat-Exterminator"</description>
+	<researchPrerequisite>BasicMechtech</researchPrerequisite>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+		<TW_Mech_TT_XV>1</TW_Mech_TT_XV>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>TW_Mech_TT_XV</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+</Defs>

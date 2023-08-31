@@ -78,7 +78,7 @@
 			- Thanks Mlie! Sorry I sniped this for my hackjob! WE ARE INCOMPATIBLE!
 			- Original mod found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2019031353.
 		
-	- [Bicycle!]
+	- [Bicycle]
 			- The first bicycle mod for vehicle framework, preserved so it may never be forgotten.
 			- I will update this if needed. Incompatible with the original mod located below.
 			- https://steamcommunity.com/sharedfiles/filedetails/?id=2019031353.
@@ -93,21 +93,61 @@
 			- WARNING: Don't put songs in while the game is running. Incompatible with anything containing this jukebox.
 			- Source 1: NukaFrog's Gloomy Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=1558635181.
 			- Source 2: Zaljerem's Jukebox: https://steamcommunity.com/sharedfiles/filedetails/?id=2775601991.
+			
+	- [Vehicle Translations]
+			- I've been on a translation tear lately, creating 5 standalone versions, and 5 steam translation mods for vehicles.
+			- So far these include the Donkey box truck, Mountain Roamer caravan, Rebel muscle car, and the Roadwanderer SUV.
+			- They can be found either on my github or on Steam, I've chosen to include them here to trim down my mod-list number.
+			- Obviously incompatible with both my translated, and the original versions of the following mods:
+			- Donkey: https://steamcommunity.com/sharedfiles/filedetails/?id=3020941599.
+			- Mountain Roamer: https://steamcommunity.com/sharedfiles/filedetails/?id=3024040456.
+			- Rebel: https://steamcommunity.com/sharedfiles/filedetails/?id=3026952899.
+			- Roadwanderer: https://steamcommunity.com/sharedfiles/filedetails/?id=3026943899.
+			- Foxhound: https://steamcommunity.com/workshop/filedetails/?id=3028216767.
+			
+	- [TT-15 Scorpion Mech - Translated]
+			- Another mod I've chosen to include to reduce my mod-list number.
+			- This thing is badass, I'll be trying to get a Steam translation done soon.
+			- Again, incompatible with the original and my translated versions, but you already knew that. ;)
+			- The original mod can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2966249386.
 	
-	- [AOC's Trampoline and Kotatsu]
-			- Bouncin', bouncin', bouncin'
-			- Are we?
-			- Bouncin', bouncin', uh
-			- Are we?
-			- Bouncin', bouncin', bouncin'
-			- Are we?
-			- Bouncin'
-			- Sorry, I was listening to Prof while I was chopping this one up.
-			- Check Prof's music out here: https://www.youtube.com/channel/UC7M1cNEc2Qwf8cCP_GnQb2Q. 
-			- The .dll scared the bejesus out of me while I was doing this so the defs are unchanged.
-			- As a result it's incompatible with the AOC "The Cleanup Devil" mod it was spun out from.
-			- Original mod found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2469449551.
+	- [SK Military Style Locker - Translated]
+		- South Korea's Military Style Locker, translated and included for use. Not much else to say.
+		- Uh, it's linkable to beds thanks to the most recent version of the mod. Obvious incompatibility with the original mod.
+		- Wasn's much to translate, just a few lines, and it's in here now to save space in the modlist.
+		- The original mod can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=3017516057.
+	
+	- [Additional Recreation Items - Goban]
+		- Yet another inclusion to trim down the list, and again, incompatible with the original mod.
+		- This one didn't have proper WorkGivers, so I fixed it as a learning experience.
+		- The original mod can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2873487282.
+		
+	- [Advanced Parkas]
+		- The texture files for the Civil2 parka were reversed for the north and south view so I renamed them and now it's all gravy.
+		- Incompatible with the original mod and included like many others to save space in the modlist.
+		- The original mod can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=1677752791.
 
+	- [Stuffable Star Wars Slave Bikini]
+		- What, you didn't think Carrie Fisher was a smokeshow in that thing? GET OUT THEN!
+		- For real though, Zaljerem is the GOAT for this one lol, even made it stuffable.
+		- Might be incompatible with the original, but who cares, use this one. It even has slave suppression offsets.
+		- The original mod can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2014331572.
+		
+	- [AOC Kotatsu]
+		- Spun out from the "AOC The Cleanup Devil" mod, located at: https://steamcommunity.com/sharedfiles/filedetails/?id=2469449551.
+		- My original intention was to get both the Kotatsu, and the Trampoline together and make them standalone.
+		- Unfortunately my C# skills aren't quite good enough to handle the work required for the assembly.
+		- As my sincere apologies, the Kotatsu is here instead, and it's cute AF.
+
+      =============================================================================================================================
+		
+	This marks the end of this particular modpack. I've learned alot along the way, and despite the quirks, incompatibilities, and
+	dependencies, I think I did an alright job for my first outing at putting something together. My only, and biggest regret with
+	this project is that I will not be able to release it publicly. I will be working on other packs like this in the future, as well
+	as some sorely needed original content, but in the meantime, I hope you enjoy XxHyde840xX's Choice Chops. Stay Safe, and Have Fun.  
+	  
+	XxHyde840xX - o7
+	  
 	  =============================================================================================================================
 	  |     This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.      |
 	  |              To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/                      |
@@ -129,7 +169,6 @@
 		<li>zal.jukebox</li>
 		<li>Solaris.FurnitureBase</li>
 		<li>Gloomy.Furniture.Fix</li>
-		<li>Millap.AOC</li>
 	</incompatibleWith>
 	<modDependencies>
 		<li>

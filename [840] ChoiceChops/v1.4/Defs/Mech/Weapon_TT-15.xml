@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Heavy charge blaster -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>TT_XV_MachineGun_Bullet</defName>
+    <label>Air-cooled autocannon round</label>
+    <graphicData>
+      <texPath>Things/Mechanoid/TT_XV_MachineGun_Bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>99</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef Abstract="True" ParentName="BaseGunWithQuality" Name="Gun_ChargeBlasterHeavyBase">
+    <label>Air-cooled autocannon</label>
+    <description>Air-cooled autocannon</description>
+    <graphicData>
+      <texPath>Things/Mechanoid/TT_XV_MachineGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1400</MarketValue>
+      <Mass>10</Mass>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>1</AccuracyMedium>
+      <AccuracyLong>1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>90</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    <relicChance>0</relicChance>
+  </ThingDef>
+
+  <ThingDef ParentName="Gun_ChargeBlasterHeavyBase">
+    <defName>TT_XV_MachineGun</defName>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TT_XV_MachineGun_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>70</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>50</burstShotCount>
+        <soundCast>Shot_ChargeBlaster</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>TT_XV</li>
+    </weaponTags>
+  </ThingDef>
+
+</Defs>

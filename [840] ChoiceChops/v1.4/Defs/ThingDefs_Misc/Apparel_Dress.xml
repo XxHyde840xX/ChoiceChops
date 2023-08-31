@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Civil Parka -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_1ParkaCiv</defName>
+    <label>Civil Parka</label>
+    <description>A fancy winter parka to stay warm even in the coldest of temperatures.</description>
+    <graphicData>
+      <texPath>Things/Apparel/FirstCivilParka/Parka</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>+0.1</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/FirstCivilParka/Parka</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AdvancedParka</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_2ParkaCiv</defName>
+    <label>Bomber Jacket</label>
+    <description>A thin parka to stay warm in moderate temperatures. Allow the wearer a certain freedom is his movement.</description>
+    <graphicData>
+      <texPath>Things/Apparel/ParkaCivil2/Parka</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeHitChance>+0.1</MeleeHitChance>
+      <MeleeDodgeChance>+0.1</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/ParkaCivil2/Parka</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AdvancedParka</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Worker Parka -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_1ParkaWork</defName>
+    <label>Worker Parka</label>
+    <description>An industrial parka designed to stay warm during work, even in the coldest of temperatures. Its numerous pockets make it useful when working.</description>
+    <graphicData>
+      <texPath>Things/Apparel/WorkerParka1/Parka</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>150</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>+0.1</WorkSpeedGlobal>
+      <MiningSpeed>+0.1</MiningSpeed>
+      <ConstructionSpeed>+0.1</ConstructionSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/WorkerParka1/Parka</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AdvancedParka</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Military parka -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_1MilitaryParka</defName>
+    <description>A thick parka to stay warm even in the coldest of temperatures. This particular model uses various tailoring technics to make it more damages resistant.</description>
+    <label>Soldier Parka</label>
+    <graphicData>
+      <texPath>Things/Apparel/ParkaSold1/Parka</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>150</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <HuntingStealth>+0.2</HuntingStealth>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/ParkaSold1/Parka</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AdvancedParka</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_2MilitaryParka</defName>
+    <description>A thick military Parka with deep pockets, to stay warm even in the coldest of temperatures. This particular model uses various tailoring technics to make it more damages resistant.</description>
+    <label>Military Parka</label>
+    <graphicData>
+      <texPath>Things/Apparel/ParkaSold2/Parka</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>150</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <MoveSpeed>-0.05</MoveSpeed>
+      <CarryingCapacity>+15</CarryingCapacity>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/ParkaSold2/Parka</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>AdvancedParka</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+
+</Defs>

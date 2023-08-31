@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- ========== Parka Combat Extended ========== -->
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_1ParkaCiv" or defName="Apparel_2ParkaCiv" or
+            defName="Apparel_1ParkaWork" or defName="Apparel_1MilitaryParka" or defName="Apparel_2MilitaryParka"]/statBases/StuffEffectMultiplierArmor</xpath>
+			<value>
+				<StuffEffectMultiplierArmor>10</StuffEffectMultiplierArmor>
+			</value>
+		</match>
+	</Operation>
+
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Apparel_1ParkaCiv" or defName="Apparel_2ParkaCiv" or
+            defName="Apparel_1ParkaWork" or defName="Apparel_1MilitaryParka" or defName="Apparel_2MilitaryParka"]/statBases</xpath>
+			<value>
+				<Bulk>10</Bulk>
+                <WornBulk>4</WornBulk>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

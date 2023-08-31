@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>Roadwanderer_Blueprint</defName>
+		<label>Roadwanderer - SWB</label>
+		<description>An SUV version of the Roadrunner, the Roadwanderer comes equipped with a shorter wheelbase and a more compact size, while still retaining all the performance of the original pickup truck. Although the rear passengers now have to share their leg-room with any loaded cargo, it beats having to walk. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x2\n&lt;color=#bb8f04&gt;Power:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>VVE_Vehicles</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Roadwanderer/Roadwanderer</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,6)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>7750</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		
+		<size>(2,4)</size>
+		
+		<researchPrerequisites>
+			<li>VVE_BasicVehicles</li>
+		</researchPrerequisites>
+		
+		<costList>
+			<VVE_EngineBlock>1</VVE_EngineBlock>
+			<VVE_CarAlternator>2</VVE_CarAlternator>
+			<VVE_CarExhaust>2</VVE_CarExhaust>
+			<VVE_CarSuspension>8</VVE_CarSuspension>
+			<VVE_CarWheel>4</VVE_CarWheel>
+			<Steel>250</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>Roadwanderer</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

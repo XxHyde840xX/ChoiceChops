@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+<JoyGiverDef>
+	<defName>GoGame</defName>
+	<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+	<baseChance>2</baseChance>
+	<thingDefs>
+		<li>Goban</li>
+	</thingDefs>
+	<jobDef>Play_Go</jobDef>
+	<joyKind>Gaming_Cerebral</joyKind>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+</JoyGiverDef>
+
+</Defs>
