@@ -5,7 +5,7 @@
 		<defName>rebel_Blueprint</defName>
 		<label>Rebel</label>
 		<description>From the all-Rimerican line of muscle cars comes the middle generation Rebel. Too contemporary to be a classic, too old-school to be cutting edge, this is the kind of car you forget all about until it punches you square in the junk. Now pony up. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1\n&lt;color=#bb8f04&gt;Power:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>VVE_Vehicles</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/unruly/unruly</texPath>

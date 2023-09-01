@@ -5,7 +5,7 @@
 		<defName>roamer_Blueprint</defName>
 		<label>Mountain Roamer</label>
 		<description>No matter how strong you build your walls, there may come a day when they fall. When they do, the Mountain Roamer is the obvious choice to bug out in. Featuring loads of room for passengers and cargo, this rugged and powerful 6x6 will get you out of the fray in a hurry. And if all's well on the homefront? Use it for long-distance business and trade, or find somewhere scenic to take a nice camping trip. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x5\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>VVE_Vehicles</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/roamer/roamer</texPath>

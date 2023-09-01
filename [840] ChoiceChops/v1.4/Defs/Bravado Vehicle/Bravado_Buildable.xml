@@ -5,7 +5,7 @@
 		<defName>840_Bravado_Blueprint</defName>
 		<label>Bravado</label>
 		<description>An Rimerican muscle car in a class by itself. Winner of multiple industry awards including 'Most Powerful in Class', 'Worst Handling' and 'Biggest Fireball', the Bravado brings the effortless cool of a time gone-by, to a generation born decades too late. Time to gun the engine, stare directly into a moody sunset, and live forever under a roadside grave in the middle of nowhere. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>VVE_Vehicles</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/Bravado/Bravado</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

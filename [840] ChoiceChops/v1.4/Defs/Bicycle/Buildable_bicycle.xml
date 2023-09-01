@@ -6,6 +6,7 @@
 		<defName>bicycle_blueprint</defName>
 		<label>bicycle</label>
 		<description>A bicycle.</description>
+		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/bicycle/bicycle</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

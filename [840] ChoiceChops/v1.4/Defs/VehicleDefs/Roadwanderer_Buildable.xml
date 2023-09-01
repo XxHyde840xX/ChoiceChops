@@ -5,7 +5,7 @@
 		<defName>Roadwanderer_Blueprint</defName>
 		<label>Roadwanderer - SWB</label>
 		<description>An SUV version of the Roadrunner, the Roadwanderer comes equipped with a shorter wheelbase and a more compact size, while still retaining all the performance of the original pickup truck. Although the rear passengers now have to share their leg-room with any loaded cargo, it beats having to walk. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x2\n&lt;color=#bb8f04&gt;Power:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>VVE_Vehicles</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/Roadwanderer/Roadwanderer</texPath>

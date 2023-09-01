@@ -5,7 +5,7 @@
 		<defName>Foxhound_Blueprint</defName>
 		<label>Foxhound</label>
 		<description>In the past, the Foxhound was designed and built as a 4×4 armored response and rescue vehicle for military and police services, and was widely used in riot-suppression, raids, and sting operations. With law and order long since forgotten on most of the RimWorlds, the Foxhound is also commonly employed by the less-than-savory with illicit cargo to move. Still a common sight both on and off the battlefield, it features 70mm thick steel bumpers and solid armor, and maintains a decent top speed despite the added weight. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x6\n&lt;color=#bb8f04&gt;Power:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>VVE_Vehicles</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/Foxhound/Foxhound</texPath>
