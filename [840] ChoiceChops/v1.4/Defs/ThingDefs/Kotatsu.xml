@@ -39,7 +39,7 @@
 
     <costList>
       <Steel>10</Steel>
-	  <Wood>25</Wood>
+	  <WoodLog>20</WoodLog>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
 
