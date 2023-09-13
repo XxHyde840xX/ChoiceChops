@@ -1,0 +1,5 @@
+- Added changelog.txt
+
+- Added new BDsGoldenGuns assembly
+
+Preserved old assembly with .null prefix
