@@ -2,4 +2,8 @@
 
 - Added new BDLuxuryGuns assembly
 
-Preserved old assembly with .null prefix
+Preserved old assembly with .null suffix
+
+- Temporarily disabled PsyObelisk Retexture Standalone.
+
+Preserved files with .null suffix
